@@ -3,3 +3,19 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+$background-light: #ffffff;
+$background-dark: #232323;
+$font-family-sans-serif: sans-serif;
+
+.top-info {
+	background-color: $background-light;
+}
+.d-flex {
+	display: flex;
+}
+.wrapper {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 80%;
+}
