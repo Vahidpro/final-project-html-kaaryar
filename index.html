@@ -5,29 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Sass/style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
     <title>Fox University</title>
 </head>
 
 <body>
     <header>
-        <div class="top-info">
-            <div class="wrapper">
-                <div class="logo d-flex">FOX.
-                    <nav>
-                        <span>UNIVERSITY</span>
+        <!-- Contact information and logo -->
+        <section class="top-info">
+            <div class="wrapper d-flex">
+                <div class="logo d-flex">
+                    <p>FOX.</p>
+                    <span>UNIVERSITY</span>
                 </div>
-                <div class="email">
-                    <p>Email</p>
-                    <p>youremail@email.com</p>
+                <div class="email d-flex align-center">
+                    <box-icon type='logo' name='telegram' color="#fd5f00"></box-icon>
+                    <div class="info-container">
+                        <p>Email</p>
+                        <p>youremail@email.com</p>
+                    </div>
                 </div>
-                <div class="call">
-                    <p>Call</p>
-                    <p>Call Us: + 1235 2355 98</p>
+                <div class="call d-flex align-center">
+                    <box-icon type='solid' name='phone' color="#fd5f00"></box-icon>
+                    <div class="info-container">
+                        <p>Call</p>
+                        <p>Call Us: + 1235 2355 98</p>
+                    </div>
                 </div>
                 <button class="apply">Apply now</button>
-                </nav>
+
             </div>
-        </div>
+        </section>
     </header>
 </body>
 

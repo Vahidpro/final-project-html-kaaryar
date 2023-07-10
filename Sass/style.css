@@ -1,15 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .top-info {
   background-color: #ffffff;
 }
+.top-info .wrapper {
+  margin: 20px auto;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.top-info .wrapper div .email,
+.top-info .wrapper div .call,
+.top-info .wrapper .apply {
+  width: 23%;
+}
+.top-info .wrapper .logo {
+  width: 31%;
+  flex-direction: column;
+}
+.top-info .wrapper .logo > p {
+  font-size: 35px;
+  font-weight: 900;
+}
+.top-info .wrapper .logo span {
+  font-weight: 700;
+  font-size: 15px;
+  transform: translateY(-15px);
+}
+.top-info .wrapper div {
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+.top-info .wrapper div p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.top-info .wrapper div:not(.logo) > :last-child {
+  font-size: 15px;
+  font-weight: 300;
+}
 
 .d-flex {
   display: flex;
+}
+
+.align-center {
+  align-items: center;
+  justify-items: center;
 }
 
 .wrapper {
