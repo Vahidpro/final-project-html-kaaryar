@@ -122,6 +122,9 @@ nav {
 			&:focus {
 				outline: none;
 			}
+			&:not(:focus) {
+				color: $light-color-200;
+			}
 		}
 
 		button {

@@ -113,6 +113,9 @@ nav form input::placeholder, nav form input:focus {
 nav form input:focus {
   outline: none;
 }
+nav form input:not(:focus) {
+  color: #b7b8bf;
+}
 nav form button {
   background-color: #0d1128;
   border: none;
