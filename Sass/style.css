@@ -127,7 +127,21 @@ nav form box-icon {
   transform: translateY(3px);
 }
 
-.hero-section .background {
-  background: linear-gradient(45deg, #0d1128 0%, rgba(253, 97, 0, 0.5019607843) 100%), 0% 0%/cover no-repeat url(../img/bg_1.jpg);
+.hero-section {
+  background: linear-gradient(45deg, rgba(13, 17, 40, 0.5411764706) 0%, rgba(253, 97, 0, 0.5019607843) 100%), 0% 0%/cover no-repeat url(../img/bg_1.jpg);
   height: 600px;
+  color: #ffffff;
+}
+.hero-section .wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 25px;
+}
+.hero-section .wrapper h1 {
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 140px;
+}
+.hero-section .wrapper span {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
