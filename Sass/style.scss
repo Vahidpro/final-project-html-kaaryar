@@ -139,3 +139,11 @@ nav {
 		}
 	}
 }
+
+.hero-section {
+	.background {
+		background: linear-gradient(45deg, #0d1128 0%, #fd610080 100%),
+			0% 0% / cover no-repeat url(../img/bg_1.jpg);
+		height: 600px;
+	}
+}
