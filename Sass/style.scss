@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 $primary-color: #fd5f00;
-$background-light: #ffffff;
-$background-dark: #232323;
+$light-color: #ffffff;
+$dark-color: #232323;
 $font-family-poppins: "Poppins", sans-serif;
 
 * {
@@ -13,7 +13,7 @@ $font-family-poppins: "Poppins", sans-serif;
 }
 
 .top-info {
-	background-color: $background-light;
+	background-color: $light-color;
 	.wrapper {
 		margin: 20px auto;
 		align-items: center;
@@ -50,6 +50,18 @@ $font-family-poppins: "Poppins", sans-serif;
 		div:not(.logo) > :last-child {
 			font-size: 15px;
 			font-weight: 300;
+		}
+	}
+
+	.apply {
+		justify-content: flex-end;
+
+		button {
+			background-color: $primary-color;
+			color: $light-color;
+			border: none;
+			width: 100px;
+			padding: 8px;
 		}
 	}
 }

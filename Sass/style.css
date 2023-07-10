@@ -45,6 +45,16 @@
   font-size: 15px;
   font-weight: 300;
 }
+.top-info .apply {
+  justify-content: flex-end;
+}
+.top-info .apply button {
+  background-color: #fd5f00;
+  color: #ffffff;
+  border: none;
+  width: 100px;
+  padding: 8px;
+}
 
 .d-flex {
   display: flex;
