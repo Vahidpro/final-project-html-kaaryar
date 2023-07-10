@@ -31,9 +31,9 @@ $font-family-poppins: "Poppins", sans-serif;
 .top-info {
 	background-color: $light-color;
 	justify-content: space-between;
-	margin: 20px auto;
+	margin: 15px auto;
 	align-items: center;
-	column-gap: 20px;
+	column-gap: 30px;
 	div .email,
 	div .call,
 	.apply {
@@ -83,7 +83,7 @@ $font-family-poppins: "Poppins", sans-serif;
 
 nav {
 	background-color: $primary-dark-color;
-	height: 65px;
+	height: 70px;
 	justify-content: space-between;
 	ul li {
 		list-style-type: none;
@@ -105,13 +105,13 @@ nav {
 		height: 80%;
 		margin-right: 20px;
 		justify-content: space-between;
+		column-gap: 15px;
 
 		input {
 			border: none;
 			background-color: $primary-dark-color;
-			border-radius: 50px;
 			width: 250px;
-			padding-left: 15px;
+			margin-left: 15px;
 			font-weight: 500;
 			font-size: 17px;
 

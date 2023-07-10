@@ -23,10 +23,10 @@
 .top-info {
   background-color: #ffffff;
   justify-content: space-between;
-  margin: 20px auto;
+  margin: 15px auto;
   align-items: center;
-  -moz-column-gap: 20px;
-       column-gap: 20px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
 }
 .top-info div .email,
 .top-info div .call,
@@ -71,7 +71,7 @@
 
 nav {
   background-color: #0d1128;
-  height: 65px;
+  height: 70px;
   justify-content: space-between;
 }
 nav ul li {
@@ -93,13 +93,14 @@ nav form {
   height: 80%;
   margin-right: 20px;
   justify-content: space-between;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
 }
 nav form input {
   border: none;
   background-color: #0d1128;
-  border-radius: 50px;
   width: 250px;
-  padding-left: 15px;
+  margin-left: 15px;
   font-weight: 500;
   font-size: 17px;
 }
