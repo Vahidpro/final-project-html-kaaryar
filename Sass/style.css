@@ -20,6 +20,24 @@
   justify-items: center;
 }
 
+button {
+  background-color: #fd5f00;
+  color: #ffffff;
+  border: none;
+  padding: 16px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 16px;
+  transition: 0.2s;
+  border: 1px solid #fd5f00;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #fd5f00;
+  border: 1px solid #fd5f00;
+}
+
 .top-info {
   background-color: #ffffff;
   justify-content: space-between;
@@ -54,7 +72,7 @@
   font-size: 14px;
   font-weight: 700;
 }
-.top-info div:not(.logo) > :last-child {
+.top-info div:not(.logo, .apply) > :last-child {
   font-size: 15px;
   font-weight: 300;
 }
@@ -62,10 +80,8 @@
   justify-content: flex-end;
 }
 .top-info .apply button {
-  background-color: #fd5f00;
-  color: #ffffff;
-  border: none;
-  width: 110px;
+  border-radius: 0;
+  width: 115px;
   padding: 8px;
 }
 
@@ -95,6 +111,10 @@ nav form {
   justify-content: space-between;
   -moz-column-gap: 15px;
        column-gap: 15px;
+  button-background-color: #0d1128;
+  button-border: none;
+  button-margin-right: 20px;
+  button-padding: 0;
 }
 nav form input {
   border: none;
@@ -119,9 +139,8 @@ nav form input:not(:focus) {
 nav form button {
   background-color: #0d1128;
   border: none;
-  border-radius: 50px;
   margin-right: 20px;
-  cursor: pointer;
+  padding: 0;
 }
 nav form box-icon {
   transform: translateY(3px);

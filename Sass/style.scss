@@ -30,6 +30,23 @@ $font-family-poppins: "Poppins", sans-serif;
 	justify-items: center;
 }
 
+button {
+	background-color: $primary-color;
+	color: $light-color;
+	border: none;
+	padding: 16px 20px;
+	cursor: pointer;
+	border-radius: 50px;
+	font-size: 16px;
+	transition: 0.2s;
+	border: 1px solid $primary-color;
+}
+button:hover {
+	background-color: transparent;
+	color: $primary-color;
+	border: 1px solid $primary-color;
+}
+
 .top-info {
 	background-color: $light-color;
 	justify-content: space-between;
@@ -65,7 +82,7 @@ $font-family-poppins: "Poppins", sans-serif;
 		font-size: 14px;
 		font-weight: 700;
 	}
-	div:not(.logo) > :last-child {
+	div:not(.logo, .apply) > :last-child {
 		font-size: 15px;
 		font-weight: 300;
 	}
@@ -74,10 +91,8 @@ $font-family-poppins: "Poppins", sans-serif;
 		justify-content: flex-end;
 
 		button {
-			background-color: $primary-color;
-			color: $light-color;
-			border: none;
-			width: 110px;
+			border-radius: 0;
+			width: 115px;
 			padding: 8px;
 		}
 	}
@@ -132,9 +147,15 @@ nav {
 		button {
 			background-color: $primary-dark-color;
 			border: none;
-			border-radius: 50px;
 			margin-right: 20px;
-			cursor: pointer;
+			padding: 0;
+		}
+
+		button: {
+			background-color: $primary-dark-color;
+			border: none;
+			margin-right: 20px;
+			padding: 0;
 		}
 		box-icon {
 			transform: translateY(3px);
