@@ -123,16 +123,16 @@ nav form input {
   font-size: 17px;
 }
 nav form input::-moz-placeholder {
-  color: #b7b8bf;
+  color: #cfcfd4;
 }
 nav form input::placeholder, nav form input:focus {
-  color: #b7b8bf;
+  color: #cfcfd4;
 }
 nav form input:focus {
   outline: none;
 }
 nav form input:not(:focus) {
-  color: #b7b8bf;
+  color: #cfcfd4;
 }
 nav form button {
   background-color: #0d1128;
@@ -166,15 +166,31 @@ nav form box-icon {
 .features-section {
   color: #ffffff;
 }
-.features-section div {
+.features-section > div {
   width: 25%;
+  height: 320px;
   display: flex;
   flex-direction: column;
   text-align: center;
+  row-gap: 10px;
+  padding: 60px 20px;
+}
+.features-section h3 {
+  font-weight: 500;
+  font-size: 22px;
+}
+.features-section img {
+  height: 60px;
 }
 .features-section .primary-light {
   background-color: #fd5f00;
 }
+.features-section .primary-light p {
+  color: #ffdfcc;
+}
 .features-section .primary-dark {
   background-color: #0d1128;
+}
+.features-section .primary-dark p {
+  color: #cfcfd4;
 }/*# sourceMappingURL=style.css.map */

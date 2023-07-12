@@ -2,9 +2,10 @@
 
 $primary-color: #fd5f00;
 $primary-dark-color: #0d1128;
+$primary-text-color: #ffdfcc;
+$primary-dark-text-color: #cfcfd4;
 $primary-dark-300: #2f334d;
 $light-color: #ffffff;
-$light-color-200: #b7b8bf;
 $dark-color: #232323;
 $gray-color: #424242;
 $gradient-1: #fd610080;
@@ -132,13 +133,13 @@ nav {
 
 			&::placeholder,
 			&:focus {
-				color: $light-color-200;
+				color: $primary-dark-text-color;
 			}
 			&:focus {
 				outline: none;
 			}
 			&:not(:focus) {
-				color: $light-color-200;
+				color: $primary-dark-text-color;
 			}
 		}
 
@@ -184,16 +185,35 @@ nav {
 
 .features-section {
 	color: $light-color;
-	div {
+	> div {
 		width: 25%;
+		height: 320px;
 		display: flex;
 		flex-direction: column;
 		text-align: center;
+		row-gap: 10px;
+		padding: 60px 20px;
 	}
+
+	h3 {
+		font-weight: 500;
+		font-size: 22px;
+	}
+
+	img {
+		height: 60px;
+	}
+
 	.primary-light {
 		background-color: $primary-color;
+		p {
+			color: $primary-text-color;
+		}
 	}
 	.primary-dark {
 		background-color: $primary-dark-color;
+		p {
+			color: $primary-dark-text-color;
+		}
 	}
 }
