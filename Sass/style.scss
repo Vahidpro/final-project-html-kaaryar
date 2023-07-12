@@ -33,7 +33,6 @@ $font-family-poppins: "Poppins", sans-serif;
 button {
 	background-color: $primary-color;
 	color: $light-color;
-	border: none;
 	padding: 16px 20px;
 	cursor: pointer;
 	border-radius: 50px;
@@ -92,8 +91,7 @@ button:hover {
 
 		button {
 			border-radius: 0;
-			width: 115px;
-			padding: 8px;
+			padding: 8px 16px;
 		}
 	}
 }
@@ -165,7 +163,7 @@ nav {
 
 .hero-section {
 	background: linear-gradient(45deg, $gradient-2 0%, $gradient-1 100%),
-		0% 0% / cover no-repeat url(../img/bg_1.jpg);
+		0% 0% / cover no-repeat url(../assets/images/bg_1.jpg);
 	height: 600px;
 	color: $light-color;
 
@@ -181,5 +179,21 @@ nav {
 		span {
 			display: block;
 		}
+	}
+}
+
+.features-section {
+	color: $light-color;
+	div {
+		width: 25%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.primary-light {
+		background-color: $primary-color;
+	}
+	.primary-dark {
+		background-color: $primary-dark-color;
 	}
 }

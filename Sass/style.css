@@ -23,7 +23,6 @@
 button {
   background-color: #fd5f00;
   color: #ffffff;
-  border: none;
   padding: 16px 20px;
   cursor: pointer;
   border-radius: 50px;
@@ -81,8 +80,7 @@ button:hover {
 }
 .top-info .apply button {
   border-radius: 0;
-  width: 115px;
-  padding: 8px;
+  padding: 8px 16px;
 }
 
 nav {
@@ -147,7 +145,7 @@ nav form box-icon {
 }
 
 .hero-section {
-  background: linear-gradient(45deg, rgba(13, 17, 40, 0.5411764706) 0%, rgba(253, 97, 0, 0.5019607843) 100%), 0% 0%/cover no-repeat url(../img/bg_1.jpg);
+  background: linear-gradient(45deg, rgba(13, 17, 40, 0.5411764706) 0%, rgba(253, 97, 0, 0.5019607843) 100%), 0% 0%/cover no-repeat url(../assets/images/bg_1.jpg);
   height: 600px;
   color: #ffffff;
 }
@@ -163,4 +161,20 @@ nav form box-icon {
 }
 .hero-section .wrapper span {
   display: block;
+}
+
+.features-section {
+  color: #ffffff;
+}
+.features-section div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.features-section .primary-light {
+  background-color: #fd5f00;
+}
+.features-section .primary-dark {
+  background-color: #0d1128;
 }/*# sourceMappingURL=style.css.map */
