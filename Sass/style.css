@@ -244,38 +244,38 @@ nav form box-icon {
   width: 100%;
 }
 
-.about {
+.about-section {
   background: linear-gradient(45deg, rgba(13, 17, 40, 0.5411764706) 0%, rgba(253, 97, 0, 0.7411764706) 100%), url(../assets/images/image_4.jpg) center center/cover no-repeat;
   height: 20%;
   background-attachment: fixed;
   color: #ffffff;
 }
-.about .wrapper {
+.about-section .wrapper {
   padding: 100px 0;
 }
-.about .top {
+.about-section .top {
   -moz-column-gap: 70px;
        column-gap: 70px;
   margin-bottom: 50px;
 }
-.about .top img {
+.about-section .top img {
   height: 350px;
   width: 500px;
   overflow: hidden;
 }
-.about .top .right h2 {
+.about-section .top .right h2 {
   font-size: 40px;
   font-weight: 600;
 }
-.about .top .right p {
+.about-section .top .right p {
   margin-top: 20px;
 }
-.about .down div {
+.about-section .down div {
   width: 25%;
   text-align: center;
   margin-bottom: 30px;
 }
-.about .down div h3 {
+.about-section .down div h3 {
   font-weight: 600;
   font-size: 40px;
 }/*# sourceMappingURL=style.css.map */
