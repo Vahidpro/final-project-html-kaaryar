@@ -193,4 +193,27 @@ nav form box-icon {
 }
 .features-section .primary-dark p {
   color: #cfcfd4;
+}
+
+.offer-section {
+  justify-content: space-between;
+}
+.offer-section .left {
+  width: 60%;
+  padding: 40px 30px 40px 0;
+}
+.offer-section .left .title h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.offer-section .left .title p {
+  padding: 30px 0;
+}
+.offer-section .right {
+  width: 40%;
+}
+.offer-section .right .offer-image {
+  background: url(../assets/images/about.jpg) no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

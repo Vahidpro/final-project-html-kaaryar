@@ -217,3 +217,31 @@ nav {
 		}
 	}
 }
+
+.offer-section {
+	justify-content: space-between;
+	.left {
+		width: 60%;
+		padding: 40px 30px 40px 0;
+
+		.title {
+			h2 {
+				font-size: 30px;
+				font-weight: 500;
+			}
+			p {
+				padding: 30px 0;
+			}
+		}
+	}
+	.right {
+		width: 40%;
+		.offer-image {
+			background: url(../assets/images/about.jpg) no-repeat center center /
+				cover;
+
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
