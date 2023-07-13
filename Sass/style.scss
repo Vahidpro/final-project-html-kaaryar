@@ -10,6 +10,7 @@ $dark-color: #232323;
 $gray-color: #424242;
 $light-gray: #666666;
 $gradient-1: #fd610080;
+$gradient-70: #fd6100bd;
 $gradient-2: #0d11288a;
 $font-family-poppins: "Poppins", sans-serif;
 
@@ -271,6 +272,49 @@ nav {
 
 			height: 100%;
 			width: 100%;
+		}
+	}
+}
+
+.about {
+	.wrapper {
+		padding: 100px 0;
+	}
+	background: linear-gradient(45deg, $gradient-2 0%, $gradient-70 100%),
+		url(../assets/images/image_4.jpg) center center/cover no-repeat;
+	height: 20%;
+	background-attachment: fixed;
+	color: $light-color;
+
+	.top {
+		// fix later
+		column-gap: 70px;
+		img {
+			height: 350px;
+			width: 500px;
+			overflow: hidden;
+		}
+
+		.right {
+			h2 {
+				font-size: 40px;
+				font-weight: 600;
+			}
+			p {
+				margin-top: 20px;
+			}
+		}
+		margin-bottom: 50px;
+	}
+	.down {
+		div {
+			width: 25%;
+			text-align: center;
+			margin-bottom: 30px;
+			h3 {
+				font-weight: 600;
+				font-size: 40px;
+			}
 		}
 	}
 }
