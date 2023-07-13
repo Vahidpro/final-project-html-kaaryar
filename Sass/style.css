@@ -199,15 +199,41 @@ nav form box-icon {
   justify-content: space-between;
 }
 .offer-section .left {
+  display: flex;
+  flex-wrap: wrap;
   width: 60%;
   padding: 40px 30px 40px 0;
 }
 .offer-section .left .title h2 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 500;
 }
 .offer-section .left .title p {
   padding: 30px 0;
+  color: #666666;
+}
+.offer-section .left > div:not(.title) {
+  display: flex;
+  width: 50%;
+  padding: 30px 20px 30px 0;
+}
+.offer-section .left > div:not(.title) img {
+  height: 80px;
+  padding: 10px;
+  background-color: #fd5f00;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.offer-section .left > div:not(.title) div {
+  display: flex;
+  flex-direction: column;
+}
+.offer-section .left > div:not(.title) div h3 {
+  font-weight: 500;
+}
+.offer-section .left > div:not(.title) div p {
+  margin-top: 10px;
+  color: #666666;
 }
 .offer-section .right {
   width: 40%;

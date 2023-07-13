@@ -8,6 +8,7 @@ $primary-dark-300: #2f334d;
 $light-color: #ffffff;
 $dark-color: #232323;
 $gray-color: #424242;
+$light-gray: #666666;
 $gradient-1: #fd610080;
 $gradient-2: #0d11288a;
 $font-family-poppins: "Poppins", sans-serif;
@@ -221,16 +222,44 @@ nav {
 .offer-section {
 	justify-content: space-between;
 	.left {
+		display: flex;
+		flex-wrap: wrap;
 		width: 60%;
 		padding: 40px 30px 40px 0;
 
 		.title {
 			h2 {
-				font-size: 30px;
+				font-size: 32px;
 				font-weight: 500;
 			}
 			p {
 				padding: 30px 0;
+				color: $light-gray;
+			}
+		}
+
+		> div:not(.title) {
+			display: flex;
+			width: 50%;
+			padding: 30px 20px 30px 0;
+			img {
+				height: 80px;
+				padding: 10px;
+				background-color: $primary-color;
+				border-radius: 50px;
+				margin-right: 20px;
+			}
+			div {
+				display: flex;
+				flex-direction: column;
+
+				h3 {
+					font-weight: 500;
+				}
+				p {
+					margin-top: 10px;
+					color: $light-gray;
+				}
 			}
 		}
 	}
