@@ -20,6 +20,10 @@
   justify-items: center;
 }
 
+li {
+  list-style-type: none;
+}
+
 button {
   background-color: #fd5f00;
   color: #ffffff;
@@ -106,9 +110,6 @@ nav {
   background-color: #0d1128;
   height: 70px;
   justify-content: space-between;
-}
-nav ul li {
-  list-style-type: none;
 }
 nav ul li a[href="#home"] {
   color: #fd5f00;
@@ -373,6 +374,20 @@ nav form box-icon {
   background: center center/cover no-repeat;
   transition: 0.3s;
 }
+.teachers-section .card-container .card .social-container {
+  justify-content: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.teachers-section .card-container .card .social-container li img {
+  height: 20px;
+}
+.teachers-section .card-container .card .social-container div {
+  margin: 0 5px;
+  row-gap: 10px;
+}
 .teachers-section .card-container .card h3 {
   font-size: 23px;
   font-weight: 600;
@@ -390,4 +405,8 @@ nav form box-icon {
 }
 .teachers-section .card-container .card:hover .img-container .img {
   transform: scale(103%) translateY(-4px);
+}
+.teachers-section .card-container .card:hover .social-container {
+  transform: translateY(-30px);
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */

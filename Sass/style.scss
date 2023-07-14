@@ -34,6 +34,10 @@ $font-family-poppins: "Poppins", sans-serif;
 	justify-items: center;
 }
 
+li {
+	list-style-type: none;
+}
+
 button {
 	background-color: $primary-color;
 	color: $light-color;
@@ -127,8 +131,6 @@ nav {
 	height: 70px;
 	justify-content: space-between;
 	ul li {
-		list-style-type: none;
-
 		a[href="#home"] {
 			color: $primary-color;
 		}
@@ -415,6 +417,21 @@ nav {
 					transition: 0.3s;
 				}
 			}
+			.social-container {
+				justify-content: center;
+				column-gap: 10px;
+				opacity: 0;
+				transition: 0.2s;
+				li {
+					img {
+						height: 20px;
+					}
+				}
+				div {
+					margin: 0 5px;
+					row-gap: 10px;
+				}
+			}
 
 			h3 {
 				font-size: 23px;
@@ -437,6 +454,21 @@ nav {
 					.img {
 						transform: scale(103%) translateY(-4px);
 					}
+
+					// .img::after {
+					// 	content: "";
+					// 	background: url(../assets/icons/calendar-bold.svg) center
+					// 		center/cover no-repeat;
+					// 	height: 100px;
+					// 	width: 100px;
+					// 	bottom: 10px;
+					// 	left: 10px;
+					// 	position: absolute;
+					// }
+				}
+				.social-container {
+					transform: translateY(-30px);
+					opacity: 1;
 				}
 			}
 		}
