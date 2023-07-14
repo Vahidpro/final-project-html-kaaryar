@@ -37,6 +37,25 @@ button:hover {
   border: 1px solid #fd5f00;
 }
 
+.title {
+  flex-direction: column;
+}
+.title h3 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #323232;
+}
+.title p {
+  color: #666666;
+  font-size: 16px;
+  padding: 30px 0;
+}
+.title h3,
+.title p {
+  text-align: center;
+  max-width: 900px;
+}
+
 .top-info {
   background-color: #ffffff;
   justify-content: space-between;
@@ -281,21 +300,7 @@ nav form box-icon {
 }
 
 .courses-section {
-  padding: 80px 0;
-}
-.courses-section > :first-child h3 {
-  font-size: 45px;
-  font-weight: 600;
-}
-.courses-section > :first-child p {
-  color: #666666;
-  font-size: large;
-}
-.courses-section > :first-child h3,
-.courses-section > :first-child p {
-  text-align: center;
-  max-width: 900px;
-  margin: 40px auto;
+  padding: 110px 0;
 }
 .courses-section .container {
   margin: 60px 10px;
@@ -344,4 +349,9 @@ nav form box-icon {
 .courses-section .container .card > img {
   height: 300px;
   width: 100%;
+}
+
+.teachers-section {
+  padding: 110px 0;
+  background-color: #fafafa;
 }/*# sourceMappingURL=style.css.map */

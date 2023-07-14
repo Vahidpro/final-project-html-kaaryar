@@ -6,12 +6,13 @@ $primary-text-color: #ffdfcc;
 $primary-dark-text-color: #cfcfd4;
 $primary-dark-300: #2f334d;
 $light-color: #ffffff;
-$dark-color: #232323;
+$dark-color: #323232;
 $gray-color: #424242;
 $light-gray: #666666;
 $gradient-1: #fd610080;
 $gradient-70: #fd6100bd;
 $gradient-2: #0d11288a;
+$background-2: #fafafa;
 $font-family-poppins: "Poppins", sans-serif;
 
 * {
@@ -47,6 +48,28 @@ button:hover {
 	background-color: transparent;
 	color: $primary-color;
 	border: 1px solid $primary-color;
+}
+
+// Ttile for sections info
+.title {
+	flex-direction: column;
+	h3 {
+		font-size: 45px;
+		font-weight: 600;
+		color: $dark-color;
+	}
+	p {
+		color: $light-gray;
+		font-size: 16px;
+		padding: 30px 0;
+	}
+
+	h3,
+	p {
+		text-align: center;
+		max-width: 900px;
+		// margin: 40px auto;
+	}
 }
 
 .top-info {
@@ -320,24 +343,7 @@ nav {
 }
 
 .courses-section {
-	padding: 80px 0;
-	> :first-child {
-		h3 {
-			font-size: 45px;
-			font-weight: 600;
-		}
-		p {
-			color: $light-gray;
-			font-size: large;
-		}
-		h3,
-		p {
-			text-align: center;
-			max-width: 900px;
-			margin: 40px auto;
-		}
-	}
-
+	padding: 110px 0;
 	.container {
 		margin: 60px 10px;
 		.card {
@@ -388,4 +394,9 @@ nav {
 			}
 		}
 	}
+}
+
+.teachers-section {
+	padding: 110px 0;
+	background-color: $background-2;
 }
