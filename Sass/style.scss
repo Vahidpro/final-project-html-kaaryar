@@ -3,15 +3,17 @@
 $primary-color: #fd5f00;
 $primary-dark-color: #0d1128;
 $primary-text-color: #ffdfcc;
-$primary-dark-text-color: #cfcfd4;
+$primary-dark-text-color: #eaeaeb;
 $primary-dark-300: #2f334d;
 $light-color: #ffffff;
 $dark-color: #323232;
 $gray-color: #424242;
 $light-gray: #666666;
 $gradient-1: #fd610080;
-$gradient-70: #fd6100bd;
+$gradient-70: #fd6100af;
+$border-bottom: #d8b5a269;
 $gradient-2: #0d11288a;
+$gradient-3: #0d1128c7;
 $background-2: #fafafa;
 $font-family-poppins: "Poppins", sans-serif;
 
@@ -307,7 +309,7 @@ nav {
 	}
 	background: linear-gradient(45deg, $gradient-2 0%, $gradient-70 100%),
 		url(../assets/images/image_4.jpg) center center/cover no-repeat;
-	height: 20%;
+	// height: 20%;
 	background-attachment: fixed;
 	color: $light-color;
 
@@ -469,6 +471,67 @@ nav {
 				.social-container {
 					transform: translateY(-30px);
 					opacity: 1;
+				}
+			}
+		}
+	}
+}
+.quote-form-section {
+	background: linear-gradient(-110deg, $gradient-3 0%, $gradient-70 100%),
+		url(../assets/images/bg_5.jpg) center center/ cover no-repeat;
+	background-attachment: fixed;
+	.wrapper {
+		flex-direction: column;
+		min-width: 500px;
+		row-gap: 40px;
+		align-items: flex-end;
+		.right {
+			width: 450px;
+			flex-direction: column;
+			color: $light-color;
+			margin: 80px 50px;
+			row-gap: 20px;
+
+			h2 {
+				font-size: 40px;
+				font-weight: 600;
+			}
+
+			form {
+				padding: 30px 0;
+				flex-wrap: wrap;
+				row-gap: 30px;
+				column-gap: 20px;
+				justify-content: space-between;
+				input,
+				select,
+				textarea {
+					background-color: transparent;
+					border: none;
+					border-bottom: 1px solid $border-bottom;
+					width: 47%;
+					height: 60px;
+
+					&:focus {
+						outline: none;
+						color: $primary-dark-text-color;
+						font-size: 16px;
+					}
+				}
+				::placeholder,
+				select {
+					color: $primary-dark-text-color;
+					font-size: 16px;
+				}
+
+				button {
+					width: 47%;
+				}
+				textarea {
+					resize: none;
+				}
+				option {
+					color: $primary-color;
 				}
 			}
 		}

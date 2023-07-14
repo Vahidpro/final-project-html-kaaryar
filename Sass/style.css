@@ -143,16 +143,16 @@ nav form input {
   font-size: 17px;
 }
 nav form input::-moz-placeholder {
-  color: #cfcfd4;
+  color: #eaeaeb;
 }
 nav form input::placeholder, nav form input:focus {
-  color: #cfcfd4;
+  color: #eaeaeb;
 }
 nav form input:focus {
   outline: none;
 }
 nav form input:not(:focus) {
-  color: #cfcfd4;
+  color: #eaeaeb;
 }
 nav form button {
   background-color: #0d1128;
@@ -212,7 +212,7 @@ nav form box-icon {
   background-color: #0d1128;
 }
 .features-section .primary-dark p {
-  color: #cfcfd4;
+  color: #eaeaeb;
 }
 
 .offer-section {
@@ -265,8 +265,7 @@ nav form box-icon {
 }
 
 .about-section {
-  background: linear-gradient(45deg, rgba(13, 17, 40, 0.5411764706) 0%, rgba(253, 97, 0, 0.7411764706) 100%), url(../assets/images/image_4.jpg) center center/cover no-repeat;
-  height: 20%;
+  background: linear-gradient(45deg, rgba(13, 17, 40, 0.5411764706) 0%, rgba(253, 97, 0, 0.6862745098) 100%), url(../assets/images/image_4.jpg) center center/cover no-repeat;
   background-attachment: fixed;
   color: #ffffff;
 }
@@ -409,4 +408,68 @@ nav form box-icon {
 .teachers-section .card-container .card:hover .social-container {
   transform: translateY(-30px);
   opacity: 1;
+}
+
+.quote-form-section {
+  background: linear-gradient(-110deg, rgba(13, 17, 40, 0.7803921569) 0%, rgba(253, 97, 0, 0.6862745098) 100%), url(../assets/images/bg_5.jpg) center center/cover no-repeat;
+  background-attachment: fixed;
+}
+.quote-form-section .wrapper {
+  flex-direction: column;
+  min-width: 500px;
+  row-gap: 40px;
+  align-items: flex-end;
+}
+.quote-form-section .wrapper .right {
+  width: 450px;
+  flex-direction: column;
+  color: #ffffff;
+  margin: 80px 50px;
+  row-gap: 20px;
+}
+.quote-form-section .wrapper .right h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.quote-form-section .wrapper .right form {
+  padding: 30px 0;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  justify-content: space-between;
+}
+.quote-form-section .wrapper .right form input,
+.quote-form-section .wrapper .right form select,
+.quote-form-section .wrapper .right form textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(216, 181, 162, 0.4117647059);
+  width: 47%;
+  height: 60px;
+}
+.quote-form-section .wrapper .right form input:focus,
+.quote-form-section .wrapper .right form select:focus,
+.quote-form-section .wrapper .right form textarea:focus {
+  outline: none;
+  color: #eaeaeb;
+  font-size: 16px;
+}
+.quote-form-section .wrapper .right form ::-moz-placeholder {
+  color: #eaeaeb;
+  font-size: 16px;
+}
+.quote-form-section .wrapper .right form ::placeholder,
+.quote-form-section .wrapper .right form select {
+  color: #eaeaeb;
+  font-size: 16px;
+}
+.quote-form-section .wrapper .right form button {
+  width: 47%;
+}
+.quote-form-section .wrapper .right form textarea {
+  resize: none;
+}
+.quote-form-section .wrapper .right form option {
+  color: #fd5f00;
 }/*# sourceMappingURL=style.css.map */
