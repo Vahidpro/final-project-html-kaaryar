@@ -278,4 +278,45 @@ nav form box-icon {
 .about-section .down div h3 {
   font-weight: 600;
   font-size: 40px;
+}
+
+.courses-section {
+  padding: 80px 0;
+}
+.courses-section > :first-child h3 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.courses-section > :first-child h3,
+.courses-section > :first-child p {
+  text-align: center;
+  max-width: 900px;
+  margin: 40px auto;
+}
+.courses-section .container {
+  margin: 25px;
+}
+.courses-section .container > div {
+  width: 25%;
+  margin: 15px;
+  overflow: hidden;
+}
+.courses-section .container > div .img {
+  background: center center/cover no-repeat;
+  height: 300px;
+  width: 100%;
+}
+.courses-section .container > div div {
+  display: flex;
+}
+.courses-section .container > div > :last-child {
+  flex-direction: column;
+}
+.courses-section .container > div button {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.courses-section .container > div > img {
+  height: 300px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
