@@ -373,9 +373,6 @@ nav form box-icon {
   background: center center/cover no-repeat;
   transition: 0.3s;
 }
-.teachers-section .card-container .card .img-container .img:hover {
-  transform: scale(102%) translateY(-5px);
-}
 .teachers-section .card-container .card h3 {
   font-size: 23px;
   font-weight: 600;
@@ -390,4 +387,7 @@ nav form box-icon {
 .teachers-section .card-container .card p {
   color: #666666;
   padding-top: 10px;
+}
+.teachers-section .card-container .card:hover .img-container .img {
+  transform: scale(103%) translateY(-4px);
 }/*# sourceMappingURL=style.css.map */

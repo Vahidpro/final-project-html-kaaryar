@@ -413,9 +413,6 @@ nav {
 					height: 100%;
 					background: center center/ cover no-repeat;
 					transition: 0.3s;
-					&:hover {
-						transform: scale(102%) translateY(-5px);
-					}
 				}
 			}
 
@@ -433,6 +430,14 @@ nav {
 			p {
 				color: $light-gray;
 				padding-top: 10px;
+			}
+
+			&:hover {
+				.img-container {
+					.img {
+						transform: scale(103%) translateY(-4px);
+					}
+				}
 			}
 		}
 	}
