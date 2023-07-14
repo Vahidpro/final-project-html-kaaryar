@@ -421,7 +421,7 @@ nav {
 				justify-content: center;
 				column-gap: 10px;
 				opacity: 0;
-				transition: 0.2s;
+				transition: 0.3s all ease;
 				li {
 					img {
 						height: 20px;
@@ -433,15 +433,15 @@ nav {
 				}
 			}
 
-			h3 {
+			.name {
 				font-size: 23px;
 				font-weight: 600;
 				padding: 15px 0 5px 0;
 			}
-			h4 {
+			.role {
 				letter-spacing: 2px;
-				font-size: 12px;
-				font-weight: 500;
+				font-size: 13px;
+				font-weight: 600;
 				color: $primary-color;
 			}
 			p {

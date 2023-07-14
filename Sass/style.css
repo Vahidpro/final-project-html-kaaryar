@@ -379,7 +379,7 @@ nav form box-icon {
   -moz-column-gap: 10px;
        column-gap: 10px;
   opacity: 0;
-  transition: 0.2s;
+  transition: 0.3s all ease;
 }
 .teachers-section .card-container .card .social-container li img {
   height: 20px;
@@ -388,15 +388,15 @@ nav form box-icon {
   margin: 0 5px;
   row-gap: 10px;
 }
-.teachers-section .card-container .card h3 {
+.teachers-section .card-container .card .name {
   font-size: 23px;
   font-weight: 600;
   padding: 15px 0 5px 0;
 }
-.teachers-section .card-container .card h4 {
+.teachers-section .card-container .card .role {
   letter-spacing: 2px;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 600;
   color: #fd5f00;
 }
 .teachers-section .card-container .card p {
