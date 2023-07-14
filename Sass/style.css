@@ -287,6 +287,10 @@ nav form box-icon {
   font-size: 45px;
   font-weight: 600;
 }
+.courses-section > :first-child p {
+  color: #666666;
+  font-size: large;
+}
 .courses-section > :first-child h3,
 .courses-section > :first-child p {
   text-align: center;
@@ -294,29 +298,50 @@ nav form box-icon {
   margin: 40px auto;
 }
 .courses-section .container {
-  margin: 25px;
+  margin: 60px 10px;
 }
-.courses-section .container > div {
+.courses-section .container .card {
   width: 25%;
   margin: 15px;
-  overflow: hidden;
 }
-.courses-section .container > div .img {
+.courses-section .container .card .img {
   background: center center/cover no-repeat;
   height: 300px;
   width: 100%;
 }
-.courses-section .container > div div {
+.courses-section .container .card > div {
   display: flex;
 }
-.courses-section .container > div > :last-child {
+.courses-section .container .card > div > div {
+  margin: 20px 0;
+  display: flex;
+}
+.courses-section .container .card > div h5 {
+  font-size: 12px;
+  color: #666666;
+  font-weight: 600;
+  margin: 0 8px 0 10px;
+  letter-spacing: 1px;
+}
+.courses-section .container .card > :last-child {
   flex-direction: column;
 }
-.courses-section .container > div button {
+.courses-section .container .card > :last-child h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.courses-section .container .card > :last-child p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #666666;
+  margin: 10px 0;
+}
+.courses-section .container .card button {
   width: -moz-fit-content;
   width: fit-content;
+  padding: 5px 10px;
 }
-.courses-section .container > div > img {
+.courses-section .container .card > img {
   height: 300px;
   width: 100%;
 }/*# sourceMappingURL=style.css.map */

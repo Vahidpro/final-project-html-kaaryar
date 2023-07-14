@@ -326,6 +326,10 @@ nav {
 			font-size: 45px;
 			font-weight: 600;
 		}
+		p {
+			color: $light-gray;
+			font-size: large;
+		}
 		h3,
 		p {
 			text-align: center;
@@ -335,26 +339,48 @@ nav {
 	}
 
 	.container {
-		margin: 25px;
-		> div {
+		margin: 60px 10px;
+		.card {
 			width: 25%;
 			margin: 15px;
-			// Fix later
-			overflow: hidden;
 
 			.img {
 				background: center center/cover no-repeat;
 				height: 300px;
 				width: 100%;
 			}
-			div {
+			// Information under images
+			> div {
 				display: flex;
+				> div {
+					margin: 20px 0;
+					display: flex;
+				}
+				h5 {
+					font-size: 12px;
+					color: $light-gray;
+					font-weight: 600;
+					margin: 0 8px 0 10px;
+					letter-spacing: 1px;
+				}
 			}
+
 			> :last-child {
 				flex-direction: column;
+				h2 {
+					font-size: 24px;
+					font-weight: 500;
+				}
+				p {
+					font-size: 16px;
+					line-height: 30px;
+					color: $light-gray;
+					margin: 10px 0;
+				}
 			}
 			button {
 				width: fit-content;
+				padding: 5px 10px;
 			}
 			> img {
 				height: 300px;
