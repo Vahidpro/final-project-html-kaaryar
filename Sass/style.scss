@@ -541,4 +541,7 @@ nav {
 .recent-blog {
 	background-color: $background-2;
 	padding: 110px 0;
+	.post-container {
+		background-color: $light-color;
+	}
 }

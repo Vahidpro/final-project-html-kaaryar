@@ -477,4 +477,7 @@ nav form box-icon {
 .recent-blog {
   background-color: #fafafa;
   padding: 110px 0;
+}
+.recent-blog .post-container {
+  background-color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
