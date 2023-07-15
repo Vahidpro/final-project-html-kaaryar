@@ -29,7 +29,8 @@ a {
   color: inherit;
 }
 
-button {
+button,
+.btn {
   background-color: #fd5f00;
   color: #ffffff;
   padding: 16px 20px;
@@ -38,9 +39,12 @@ button {
   font-size: 16px;
   transition: 0.2s;
   border: 1px solid #fd5f00;
+  text-align: center;
+  margin: auto 0;
 }
 
-button:hover {
+button:hover,
+.btn:hover {
   background-color: transparent;
   color: #fd5f00;
   border: 1px solid #fd5f00;
@@ -496,8 +500,41 @@ nav form box-icon {
   font-size: 20px;
   font-weight: 400;
 }
+.recent-blog .post-container .post p {
+  color: #666666;
+  padding: 15px 0;
+  line-height: 1.8em;
+}
+.recent-blog .post-container .post .down {
+  padding: 25px;
+}
+.recent-blog .post-container .post .down .container {
+  display: flex;
+  justify-content: space-between;
+}
+.recent-blog .post-container .post .down .container h3 {
+  justify-self: flex-start;
+}
+.recent-blog .post-container .post .down .container .btn {
+  padding: 5px 15px;
+}
+.recent-blog .post-container .post .down .container .info {
+  display: flex;
+  justify-content: flex-end;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  align-items: center;
+}
+.recent-blog .post-container .post .down .container .info h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fd5f00;
+}
+.recent-blog .post-container .post .down .container .info > :last-child {
+  color: #b3b3b3;
+}
 .recent-blog .post-container .img-container {
-  height: 250px;
+  height: 280px;
 }
 .recent-blog .post-container .img {
   width: 100%;

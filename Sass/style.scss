@@ -15,6 +15,7 @@ $border-bottom: #d8b5a269;
 $gradient-2: #0d11288a;
 $gradient-3: #0d1128c7;
 $background-2: #fafafa;
+$gray-badge: #b3b3b3;
 $font-family-poppins: "Poppins", sans-serif;
 
 * {
@@ -44,7 +45,8 @@ a {
 	color: inherit;
 }
 
-button {
+button,
+.btn {
 	background-color: $primary-color;
 	color: $light-color;
 	padding: 16px 20px;
@@ -53,8 +55,11 @@ button {
 	font-size: 16px;
 	transition: 0.2s;
 	border: 1px solid $primary-color;
+	text-align: center;
+	margin: auto 0;
 }
-button:hover {
+button:hover,
+.btn:hover {
 	background-color: transparent;
 	color: $primary-color;
 	border: 1px solid $primary-color;
@@ -555,9 +560,45 @@ nav {
 				font-size: 20px;
 				font-weight: 400;
 			}
+			p {
+				color: $light-gray;
+				padding: 15px 0;
+				line-height: 1.8em;
+			}
+
+			.down {
+				padding: 25px;
+				.container {
+					display: flex;
+					justify-content: space-between;
+					h3 {
+						justify-self: flex-start;
+					}
+
+					.btn {
+						padding: 5px 15px;
+					}
+
+					.info {
+						display: flex;
+						justify-content: flex-end;
+						column-gap: 10px;
+						align-items: center;
+
+						h3 {
+							font-size: 16px;
+							font-weight: 400;
+							color: $primary-color;
+						}
+						> :last-child {
+							color: $gray-badge;
+						}
+					}
+				}
+			}
 		}
 		.img-container {
-			height: 250px;
+			height: 280px;
 		}
 		.img {
 			width: 100%;
