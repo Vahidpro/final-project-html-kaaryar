@@ -594,6 +594,10 @@ nav {
 						}
 						> :last-child {
 							color: $gray-badge;
+
+							img {
+								transform: translateY(2px);
+							}
 						}
 					}
 				}
