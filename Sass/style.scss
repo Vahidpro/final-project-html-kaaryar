@@ -16,6 +16,8 @@ $gradient-2: #0d11288a;
 $gradient-3: #0d1128c7;
 $background-2: #fafafa;
 $gray-badge: #b3b3b3;
+$violet: #5d50c6;
+
 $font-family-poppins: "Poppins", sans-serif;
 
 * {
@@ -599,6 +601,30 @@ nav {
 		}
 		.img-container {
 			height: 280px;
+			position: relative;
+			.info {
+				flex-direction: column;
+				background-color: $violet;
+				color: $light-color;
+				height: fit-content;
+				padding: 10px;
+				text-align: center;
+				position: absolute;
+				bottom: 0;
+
+				span {
+					font-size: 14px;
+				}
+
+				.day {
+					font-size: 20px;
+					font-weight: 800;
+				}
+
+				.month {
+					padding-top: 5px;
+				}
+			}
 		}
 		.img {
 			width: 100%;

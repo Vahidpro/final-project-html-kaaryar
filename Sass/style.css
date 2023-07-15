@@ -535,6 +535,28 @@ nav form box-icon {
 }
 .recent-blog .post-container .img-container {
   height: 280px;
+  position: relative;
+}
+.recent-blog .post-container .img-container .info {
+  flex-direction: column;
+  background-color: #5d50c6;
+  color: #ffffff;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.recent-blog .post-container .img-container .info span {
+  font-size: 14px;
+}
+.recent-blog .post-container .img-container .info .day {
+  font-size: 20px;
+  font-weight: 800;
+}
+.recent-blog .post-container .img-container .info .month {
+  padding-top: 5px;
 }
 .recent-blog .post-container .img {
   width: 100%;
