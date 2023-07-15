@@ -39,6 +39,10 @@ $font-family-poppins: "Poppins", sans-serif;
 li {
 	list-style-type: none;
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
 
 button {
 	background-color: $primary-color;
@@ -542,6 +546,23 @@ nav {
 	background-color: $background-2;
 	padding: 110px 0;
 	.post-container {
-		background-color: $light-color;
+		column-gap: 30px;
+		.post {
+			background-color: $light-color;
+			display: flex;
+			flex-direction: column;
+			h4 a {
+				font-size: 20px;
+				font-weight: 400;
+			}
+		}
+		.img-container {
+			height: 250px;
+		}
+		.img {
+			width: 100%;
+			height: 100%;
+			background: center center/ cover no-repeat;
+		}
 	}
 }
