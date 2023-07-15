@@ -644,3 +644,14 @@ nav {
 		}
 	}
 }
+
+.gallary-section {
+	.img-container > div {
+		width: 100%;
+		.img {
+			background: center center/cover no-repeat;
+			width: 100%;
+			height: 350px;
+		}
+	}
+}
