@@ -578,4 +578,24 @@ nav form box-icon {
   background: center center/cover no-repeat;
   width: 100%;
   height: 350px;
+  position: relative;
+}
+.gallary-section .img-container > div .img img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  padding: 10px;
+  background-color: #fd5f00;
+  border-radius: 5px;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.gallary-section .img-container > div :hover {
+  cursor: zoom-in;
+}
+.gallary-section .img-container > div :hover img {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */
