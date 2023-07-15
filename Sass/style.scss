@@ -570,6 +570,13 @@ nav {
 
 			.down {
 				padding: 25px;
+
+				h4 {
+					:hover {
+						color: $primary-color;
+						transition: all 0.3s ease-out;
+					}
+				}
 				.container {
 					display: flex;
 					justify-content: space-between;
@@ -622,7 +629,7 @@ nav {
 
 				.day {
 					font-size: 20px;
-					font-weight: 800;
+					font-weight: 700;
 				}
 
 				.month {
