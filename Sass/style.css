@@ -571,6 +571,38 @@ nav form box-icon {
   background: center center/cover no-repeat;
 }
 
+.comments-section {
+  padding: 110px 0;
+}
+.comments-section .container {
+  max-width: 550px;
+  margin: 80px auto;
+}
+.comments-section .container img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.comments-section .container div {
+  flex-direction: column;
+  margin-left: 40px;
+}
+.comments-section .container div p {
+  font-size: 18px;
+  color: #666666;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.comments-section .container div h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.comments-section .container div h4 {
+  font-weight: 400;
+  font-size: 14;
+  color: #fd5f00;
+}
+
 .gallery-section .img-container > div {
   width: 100%;
 }

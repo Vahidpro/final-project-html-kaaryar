@@ -645,6 +645,41 @@ nav {
 	}
 }
 
+.comments-section {
+	padding: 110px 0;
+
+	.container {
+		max-width: 550px;
+		margin: 80px auto;
+		img {
+			width: 130px;
+			height: 130px;
+			border-radius: 50%;
+		}
+		div {
+			flex-direction: column;
+			margin-left: 40px;
+
+			p {
+				font-size: 18px;
+				color: $light-gray;
+				line-height: 30px;
+				margin-bottom: 20px;
+			}
+			h3 {
+				font-size: 20px;
+				font-weight: 400;
+			}
+
+			h4 {
+				font-weight: 400;
+				font-size: 14;
+				color: $primary-color;
+			}
+		}
+	}
+}
+
 .gallery-section {
 	.img-container > div {
 		width: 100%;
