@@ -649,22 +649,54 @@ nav {
 	padding: 110px 0;
 
 	.container {
-		max-width: 550px;
-		margin: 80px auto;
+		max-width: 580px;
+		margin: 50px auto 80px auto;
+		align-items: center;
+
+		> :first-child {
+			margin-top: 1%;
+		}
 		img {
-			width: 130px;
-			height: 130px;
+			width: 120px;
+			height: 120px;
 			border-radius: 50%;
 		}
 		div {
 			flex-direction: column;
 			margin-left: 40px;
+			// position: relative;
 
+			// .quote-icon {
+			// 	background: url(../assets/icons/quote-left.svg) no-repeat;
+			// 	background-size: 100px;
+			// 	background-position: 0 -30px;
+			// 	width: 500px;
+			// 	height: 100px;
+			// 	position: absolute;
+			// 	left: 0;
+			// 	top: -45;
+			// }
 			p {
+				background: url(../assets/icons/quote-left.svg) no-repeat;
+				background-size: 100px;
+				background-position: 0 50%;
 				font-size: 18px;
 				color: $light-gray;
 				line-height: 30px;
 				margin-bottom: 20px;
+				padding-top: 80px;
+
+				// &::before {
+				// 	content: "";
+				// 	background: url(../assets/icons/quote-left.svg) no-repeat;
+				// 	background-size: 100px;
+				// 	background-position: 0 -30px;
+				// 	width: 500px;
+				// 	height: 100px;
+				// 	position: absolute;
+				// 	left: 0;
+				// 	top: -45;
+				// }
 			}
 			h3 {
 				font-size: 20px;
