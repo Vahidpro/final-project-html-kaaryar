@@ -7,6 +7,7 @@ $primary-dark-text-color: #eaeaeb;
 $primary-dark-300: #2f334d;
 $light-color: #ffffff;
 $dark-color: #323232;
+$dark-footer: #232323;
 $gray-color: #424242;
 $light-gray: #666666;
 $gradient-1: #fd610080;
@@ -744,6 +745,30 @@ nav {
 				opacity: 1;
 			}
 			cursor: zoom-in;
+		}
+	}
+}
+footer {
+	background-color: $dark-footer;
+
+	color: $primary-dark-text-color;
+	.wrapper {
+		padding: 80px 0;
+		column-gap: 30px;
+		.question {
+			.content-container {
+				flex-direction: column;
+				row-gap: 20px;
+				> div {
+					column-gap: 25px;
+				}
+			}
+		}
+		> div {
+			width: 25%;
+			h2 {
+				margin: 35px 0;
+			}
 		}
 	}
 }

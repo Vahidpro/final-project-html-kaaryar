@@ -638,4 +638,28 @@ nav form box-icon {
 }
 .gallery-section .img-container > div :hover img {
   opacity: 1;
+}
+
+footer {
+  background-color: #232323;
+  color: #eaeaeb;
+}
+footer .wrapper {
+  padding: 80px 0;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+footer .wrapper .question .content-container {
+  flex-direction: column;
+  row-gap: 20px;
+}
+footer .wrapper .question .content-container > div {
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+footer .wrapper > div {
+  width: 25%;
+}
+footer .wrapper > div h2 {
+  margin: 35px 0;
 }/*# sourceMappingURL=style.css.map */
