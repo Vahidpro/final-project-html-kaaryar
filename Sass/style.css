@@ -661,5 +661,7 @@ footer .wrapper > div {
   width: 25%;
 }
 footer .wrapper > div h2 {
-  margin: 35px 0;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 35px;
 }/*# sourceMappingURL=style.css.map */
