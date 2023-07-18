@@ -645,7 +645,7 @@ footer {
   color: #eaeaeb;
 }
 footer .wrapper {
-  padding: 80px 0;
+  padding-top: 80px;
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
@@ -774,4 +774,8 @@ footer .wrapper .subscribe-connect .connect > div a img {
 }
 footer .wrapper .subscribe-connect .connect > div a:first-child {
   margin-left: 0;
+}
+footer .copyright {
+  text-align: center;
+  padding: 80px 0;
 }/*# sourceMappingURL=style.css.map */

@@ -760,7 +760,7 @@ footer {
 
 	color: $primary-dark-text-color;
 	.wrapper {
-		padding: 80px 0;
+		padding-top: 80px;
 		column-gap: 30px;
 		.question {
 			.container {
@@ -894,5 +894,10 @@ footer {
 				}
 			}
 		}
+	}
+	// Copyright info
+	.copyright {
+		text-align: center;
+		padding: 80px 0;
 	}
 }
