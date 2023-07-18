@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  line-height: 1.8;
 }
 
 .wrapper {
@@ -197,7 +198,6 @@ nav form box-icon {
 }
 .features-section > div {
   width: 25%;
-  height: 320px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -781,4 +781,11 @@ footer .wrapper .subscribe-connect .connect > div a:first-child {
 footer .copyright {
   text-align: center;
   padding: 80px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+  }
 }/*# sourceMappingURL=style.css.map */
