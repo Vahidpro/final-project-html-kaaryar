@@ -657,6 +657,9 @@ footer .wrapper .question .container > div {
   -moz-column-gap: 25px;
        column-gap: 25px;
 }
+footer .wrapper .question .container p {
+  font-size: 14px;
+}
 footer .wrapper > div {
   width: 25%;
 }
