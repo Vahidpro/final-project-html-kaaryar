@@ -333,15 +333,20 @@ nav {
 	color: $light-color;
 
 	.top {
-		// fix later
 		column-gap: 70px;
-		img {
-			height: 350px;
-			width: 500px;
-			overflow: hidden;
+		.img-container {
+			width: 600px;
+
+			.img {
+				background: url(../assets/images/about-2.jpg);
+				background-position: center center;
+				width: 100%;
+				height: 100%;
+			}
 		}
 
 		.right {
+			width: 50%;
 			h2 {
 				font-size: 40px;
 				font-weight: 600;
@@ -366,31 +371,29 @@ nav {
 }
 
 .courses-section {
-	padding: 110px 10px;
+	padding: 110px 0;
 	.container {
-		margin: 60px 0;
+		padding: 60px 24px;
 		.card {
-			width: 25%;
-			margin: 15px 15px;
-
+			// width: 25%;
+			padding: 15px 10px;
 			.img {
 				background: center center/cover no-repeat;
 				height: 300px;
 				width: 100%;
 			}
 			// Information under images
-			> div {
-				display: flex;
+			.info {
 				> div {
 					margin: 20px 0;
 					display: flex;
-				}
-				h5 {
-					font-size: 12px;
-					color: $light-gray;
-					font-weight: 600;
-					margin: 0 8px 0 10px;
-					letter-spacing: 1px;
+					span {
+						font-size: 12px;
+						color: $light-gray;
+						font-weight: 600;
+						letter-spacing: 1px;
+						padding: 0 5px;
+					}
 				}
 			}
 

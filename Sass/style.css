@@ -286,10 +286,17 @@ nav form box-icon {
        column-gap: 70px;
   margin-bottom: 50px;
 }
-.about-section .top img {
-  height: 350px;
-  width: 500px;
-  overflow: hidden;
+.about-section .top .img-container {
+  width: 600px;
+}
+.about-section .top .img-container .img {
+  background: url(../assets/images/about-2.jpg);
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+.about-section .top .right {
+  width: 50%;
 }
 .about-section .top .right h2 {
   font-size: 40px;
@@ -309,33 +316,29 @@ nav form box-icon {
 }
 
 .courses-section {
-  padding: 110px 10px;
+  padding: 110px 0;
 }
 .courses-section .container {
-  margin: 60px 0;
+  padding: 60px 24px;
 }
 .courses-section .container .card {
-  width: 25%;
-  margin: 15px 15px;
+  padding: 15px 10px;
 }
 .courses-section .container .card .img {
   background: center center/cover no-repeat;
   height: 300px;
   width: 100%;
 }
-.courses-section .container .card > div {
-  display: flex;
-}
-.courses-section .container .card > div > div {
+.courses-section .container .card .info > div {
   margin: 20px 0;
   display: flex;
 }
-.courses-section .container .card > div h5 {
+.courses-section .container .card .info > div span {
   font-size: 12px;
   color: #666666;
   font-weight: 600;
-  margin: 0 8px 0 10px;
   letter-spacing: 1px;
+  padding: 0 5px;
 }
 .courses-section .container .card > :last-child {
   flex-direction: column;
