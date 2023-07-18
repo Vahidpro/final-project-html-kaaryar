@@ -756,7 +756,7 @@ footer {
 		padding: 80px 0;
 		column-gap: 30px;
 		.question {
-			.content-container {
+			.container {
 				flex-direction: column;
 				row-gap: 20px;
 				> div {
@@ -770,6 +770,21 @@ footer {
 				font-size: 22px;
 				font-weight: 500;
 				margin-bottom: 35px;
+			}
+		}
+		.links .container {
+			li a {
+				display: flex;
+				align-items: center;
+				color: $gray-badge;
+				transition: all 0.5s;
+
+				&:hover {
+					color: $light-color;
+				}
+				img {
+					padding-right: 8px;
+				}
 			}
 		}
 	}

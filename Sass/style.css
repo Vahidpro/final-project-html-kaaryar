@@ -649,11 +649,11 @@ footer .wrapper {
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-footer .wrapper .question .content-container {
+footer .wrapper .question .container {
   flex-direction: column;
   row-gap: 20px;
 }
-footer .wrapper .question .content-container > div {
+footer .wrapper .question .container > div {
   -moz-column-gap: 25px;
        column-gap: 25px;
 }
@@ -664,4 +664,16 @@ footer .wrapper > div h2 {
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 35px;
+}
+footer .wrapper .links .container li a {
+  display: flex;
+  align-items: center;
+  color: #b3b3b3;
+  transition: all 0.5s;
+}
+footer .wrapper .links .container li a:hover {
+  color: #ffffff;
+}
+footer .wrapper .links .container li a img {
+  padding-right: 8px;
 }/*# sourceMappingURL=style.css.map */
