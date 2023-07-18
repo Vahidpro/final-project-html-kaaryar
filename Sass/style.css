@@ -404,6 +404,7 @@ nav form box-icon {
   font-size: 23px;
   font-weight: 600;
   padding: 15px 0 5px 0;
+  transition: all 0.5s;
 }
 .teachers-section .card-container .card .role {
   letter-spacing: 2px;
@@ -422,10 +423,14 @@ nav form box-icon {
   transform: translateY(-30px);
   opacity: 1;
 }
+.teachers-section .card-container .card:hover.card .name {
+  color: #fd5f00;
+}
 
 .quote-form-section {
   background: linear-gradient(-110deg, rgba(13, 17, 40, 0.7803921569) 0%, rgba(253, 97, 0, 0.6862745098) 100%), url(../assets/images/bg_5.jpg) center center/cover no-repeat;
   background-attachment: fixed;
+  background-position-x: 30%;
 }
 .quote-form-section .wrapper {
   flex-direction: column;
@@ -650,8 +655,8 @@ footer {
 }
 footer .wrapper {
   padding-top: 80px;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  -moz-column-gap: 28px;
+       column-gap: 28px;
 }
 footer .wrapper .question .container {
   flex-direction: column;
@@ -791,5 +796,14 @@ footer .copyright {
   .wrapper {
     margin: 0 auto;
     max-width: 900px;
+  }
+  .comments-section .container {
+    max-width: 100%;
+  }
+  footer .blog .content span {
+    font-size: 12px !important;
+  }
+  footer .blog .content img {
+    width: 13px;
   }
 }/*# sourceMappingURL=style.css.map */

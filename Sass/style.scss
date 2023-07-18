@@ -462,6 +462,7 @@ nav {
 				font-size: 23px;
 				font-weight: 600;
 				padding: 15px 0 5px 0;
+				transition: all 0.5s;
 			}
 			.role {
 				letter-spacing: 2px;
@@ -495,6 +496,9 @@ nav {
 					transform: translateY(-30px);
 					opacity: 1;
 				}
+				&.card .name {
+					color: $primary-color;
+				}
 			}
 		}
 	}
@@ -503,6 +507,7 @@ nav {
 	background: linear-gradient(-110deg, $gradient-3 0%, $gradient-70 100%),
 		url(../assets/images/bg_5.jpg) center center/ cover no-repeat;
 	background-attachment: fixed;
+	background-position-x: 30%;
 	.wrapper {
 		flex-direction: column;
 		min-width: 500px;
@@ -765,7 +770,7 @@ footer {
 	color: $primary-dark-text-color;
 	.wrapper {
 		padding-top: 80px;
-		column-gap: 30px;
+		column-gap: 28px;
 		.question {
 			.container {
 				flex-direction: column;
@@ -915,4 +920,25 @@ footer {
 		margin: 0 auto;
 		max-width: 900px;
 	}
+
+	.comments-section {
+		.container {
+			max-width: 100%;
+		}
+	}
+	footer {
+		.blog {
+			.content {
+				span {
+					font-size: 12px !important;
+				}
+				img {
+					width: 13px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
 }
