@@ -18,8 +18,20 @@ $gradient-3: #0d1128c7;
 $background-2: #fafafa;
 $gray-badge: #b3b3b3;
 $violet: #5d50c6;
-
 $font-family-poppins: "Poppins", sans-serif;
+
+@mixin placeholder-style {
+	&::placeholder,
+	&:focus {
+		color: $primary-dark-text-color;
+	}
+	&:focus {
+		outline: none;
+	}
+	&:not(:focus) {
+		color: $primary-dark-text-color;
+	}
+}
 
 * {
 	margin: 0;
@@ -171,17 +183,7 @@ nav {
 			margin-left: 15px;
 			font-weight: 500;
 			font-size: 17px;
-
-			&::placeholder,
-			&:focus {
-				color: $primary-dark-text-color;
-			}
-			&:focus {
-				outline: none;
-			}
-			&:not(:focus) {
-				color: $primary-dark-text-color;
-			}
+			@include placeholder-style;
 		}
 
 		button {
@@ -784,6 +786,36 @@ footer {
 				}
 				img {
 					padding-right: 8px;
+				}
+			}
+		}
+
+		.subscribe-contact {
+			form {
+				input,
+				button {
+					width: 100%;
+					height: 60px;
+					border-radius: 5px;
+					border: none;
+					margin: 5px 0;
+				}
+				input {
+					background-color: #393939;
+					@include placeholder-style;
+					&::placeholder,
+					&:focus {
+						text-align: center;
+						font-size: 16px;
+						color: $gray-badge;
+					}
+				}
+				button {
+					background-color: $violet;
+					&:hover {
+						background-color: $primary-color;
+						color: $light-color;
+					}
 				}
 			}
 		}
