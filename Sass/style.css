@@ -677,6 +677,46 @@ footer .wrapper .links .container li a:hover {
 footer .wrapper .links .container li a img {
   padding-right: 8px;
 }
+footer .wrapper .blog .post-container {
+  flex-direction: column;
+}
+footer .wrapper .blog .post-container .post {
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  padding-bottom: 20px;
+}
+footer .wrapper .blog .post-container .post .img {
+  width: 80px;
+  height: 80px;
+  background: center center/cover no-repeat;
+}
+footer .wrapper .blog .post-container .post .content > div {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  margin: 5px 0;
+}
+footer .wrapper .blog .post-container .post .content > div img {
+  padding-right: 3px;
+}
+footer .wrapper .blog .post-container .post .content h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  transition: all 0.5s;
+}
+footer .wrapper .blog .post-container .post .content h3:hover {
+  color: #fd5f00;
+}
+footer .wrapper .blog .post-container .post .content span {
+  color: #b3b3b3;
+  font-size: 14px;
+}
+footer .wrapper .blog .post-container .post .content .date {
+  margin-top: 16px;
+}
+footer .wrapper .blog .post-container .post .content a {
+  display: flex;
+}
 footer .wrapper .subscribe-connect .subscribe form input,
 footer .wrapper .subscribe-connect .subscribe form button {
   width: 100%;
