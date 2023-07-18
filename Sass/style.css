@@ -353,10 +353,11 @@ nav form box-icon {
   color: #666666;
   margin: 10px 0;
 }
-.courses-section .container .card button {
+.courses-section .container .card .btn {
   width: -moz-fit-content;
   width: fit-content;
   padding: 5px 10px;
+  margin-top: 16px;
 }
 .courses-section .container .card > img {
   height: 300px;
