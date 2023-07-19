@@ -31,6 +31,29 @@
 			}
 		}
 	}
+
+	// Offer section
+	.offer-section .left > div:not(.title) {
+		width: 100%;
+	}
+
+	.about-section .top {
+		column-gap: 30px;
+		.img-container {
+			width: 45%;
+		}
+	}
+
+	.courses-section .container .card .info > div {
+		img {
+			width: 11px;
+		}
+		span {
+			font-size: 11px;
+			padding: 0 0 0 3px;
+			letter-spacing: 0;
+		}
+	}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {

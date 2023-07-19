@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-* {
+*,
+::after,
+::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -232,34 +234,34 @@ nav form box-icon {
   width: 60%;
   padding: 40px 30px 40px 0;
 }
-.offer-section .left .title h2 {
+.offer-section .left .offer-title h2 {
   font-size: 32px;
   font-weight: 500;
 }
-.offer-section .left .title p {
+.offer-section .left .offer-title p {
   padding: 30px 0;
   color: #666666;
 }
-.offer-section .left > div:not(.title) {
+.offer-section .left > div:not(.offer-title) {
   display: flex;
   width: 50%;
   padding: 30px 20px 30px 0;
 }
-.offer-section .left > div:not(.title) img {
+.offer-section .left > div:not(.offer-title) img {
   height: 80px;
   padding: 10px;
   background-color: #fd5f00;
   border-radius: 50px;
   margin-right: 20px;
 }
-.offer-section .left > div:not(.title) div {
+.offer-section .left > div:not(.offer-title) div {
   display: flex;
   flex-direction: column;
 }
-.offer-section .left > div:not(.title) div h3 {
+.offer-section .left > div:not(.offer-title) div h3 {
   font-weight: 500;
 }
-.offer-section .left > div:not(.title) div p {
+.offer-section .left > div:not(.offer-title) div p {
   margin-top: 10px;
   color: #666666;
 }
@@ -321,6 +323,7 @@ nav form box-icon {
   padding: 60px 24px;
 }
 .courses-section .container .card {
+  width: 25%;
   padding: 15px 10px;
 }
 .courses-section .container .card .img {
@@ -332,12 +335,15 @@ nav form box-icon {
   margin: 20px 0;
   display: flex;
 }
-.courses-section .container .card .info > div span {
+.courses-section .container .card .info > div > span {
   font-size: 12px;
   color: #666666;
   font-weight: 600;
   letter-spacing: 1px;
   padding: 0 5px;
+}
+.courses-section .container .card .info .user {
+  position: relative;
 }
 .courses-section .container .card > :last-child {
   flex-direction: column;

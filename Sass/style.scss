@@ -20,6 +20,16 @@ $gray-badge: #b3b3b3;
 $violet: #5d50c6;
 $font-family-poppins: "Poppins", sans-serif;
 
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-family-poppins;
+	line-height: 1.8;
+}
+
 // Mixins
 @mixin placeholder-style {
 	&::placeholder,
@@ -36,14 +46,6 @@ $font-family-poppins: "Poppins", sans-serif;
 
 @mixin background-center {
 	background: center center/ cover no-repeat;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: $font-family-poppins;
-	line-height: 1.8;
 }
 
 .wrapper {
@@ -278,7 +280,7 @@ nav {
 		width: 60%;
 		padding: 40px 30px 40px 0;
 
-		.title {
+		.offer-title {
 			h2 {
 				font-size: 32px;
 				font-weight: 500;
@@ -289,7 +291,7 @@ nav {
 			}
 		}
 
-		> div:not(.title) {
+		> div:not(.offer-title) {
 			display: flex;
 			width: 50%;
 			padding: 30px 20px 30px 0;
@@ -379,7 +381,7 @@ nav {
 	.container {
 		padding: 60px 24px;
 		.card {
-			// width: 25%;
+			width: 25%;
 			padding: 15px 10px;
 			.img {
 				background: center center/cover no-repeat;
@@ -391,12 +393,30 @@ nav {
 				> div {
 					margin: 20px 0;
 					display: flex;
-					span {
+					> span {
 						font-size: 12px;
 						color: $light-gray;
 						font-weight: 600;
 						letter-spacing: 1px;
 						padding: 0 5px;
+					}
+				}
+
+				.user {
+					position: relative;
+					img {
+						// display: block;
+						// width: 12px;
+						// &::before {
+						// 	content: "";
+						// 	background: url(../assets/icons/user-solid.svg) center center /
+						// 		cover no-repeat;
+						// 	position: absolute;
+						// 	width: 15px;
+						// 	height: 15px;
+						// 	top: 0;
+						// 	left: 0;
+						// }
 					}
 				}
 			}
