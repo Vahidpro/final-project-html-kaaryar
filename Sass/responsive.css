@@ -37,6 +37,9 @@
   .offer-section .left > div:not(.title) {
     width: 100%;
   }
+  .about-section {
+    background-attachment: scroll;
+  }
   .about-section .top {
     flex-direction: column;
   }
