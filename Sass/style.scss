@@ -404,20 +404,20 @@ nav {
 
 				.user {
 					position: relative;
-					img {
-						// display: block;
-						// width: 12px;
-						// &::before {
-						// 	content: "";
-						// 	background: url(../assets/icons/user-solid.svg) center center /
-						// 		cover no-repeat;
-						// 	position: absolute;
-						// 	width: 15px;
-						// 	height: 15px;
-						// 	top: 0;
-						// 	left: 0;
-						// }
-					}
+					// img {
+					// display: block;
+					// width: 12px;
+					// &::before {
+					// 	content: "";
+					// 	background: url(../assets/icons/user-solid.svg) center center /
+					// 		cover no-repeat;
+					// 	position: absolute;
+					// 	width: 15px;
+					// 	height: 15px;
+					// 	top: 0;
+					// 	left: 0;
+					// }
+					// }
 				}
 			}
 
@@ -452,14 +452,18 @@ nav {
 	background-color: $background-2;
 	.card-container {
 		margin: 35px 0;
+		flex-wrap: wrap;
+		width: 100%;
 		.card {
 			flex-direction: column;
-			margin: 0 15px;
+			width: 25%;
+			padding: 0 15px;
 			text-align: center;
 			overflow: hidden;
 			.img-container {
 				height: 400px;
 				overflow: hidden;
+				flex-wrap: wrap;
 				.img {
 					height: 100%;
 					background: center center/ cover no-repeat;
