@@ -1,4 +1,44 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
+  .wrapper {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  .top-info .container {
+    flex-direction: column;
+  }
+  .top-info .container .contact-info {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  nav {
+    justify-content: flex-end;
+  }
+  nav ul {
+    display: none !important;
+  }
+  .hero-section .wrapper {
+    align-items: center;
+    text-align: center;
+  }
+  .features-section {
+    flex-wrap: wrap;
+  }
+  .features-section > div {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+  .offer-section .right {
+    display: none;
+  }
+  .offer-section .left {
+    width: 100%;
+  }
+  .offer-section .left > div:not(.title) {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
   .wrapper {
     margin: 0 auto;
     max-width: 700px;
@@ -28,7 +68,7 @@
   nav form input {
     width: unset;
   }
-  .offer-section .left > div:not(.title) {
+  .offer-section .left > div:not(.offer-title) {
     width: 100%;
   }
   .about-section .top {
@@ -66,7 +106,7 @@
     width: 50%;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
   .wrapper {
     margin: 0 auto;
     max-width: 900px;
