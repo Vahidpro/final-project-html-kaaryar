@@ -506,13 +506,13 @@ nav form box-icon {
   padding: 110px 0;
 }
 .recent-blog .post-container {
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  flex-wrap: wrap;
 }
 .recent-blog .post-container .post {
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  width: 33.333%;
+  padding: 0 15px;
 }
 .recent-blog .post-container .post h4 a {
   font-size: 20px;
@@ -525,6 +525,7 @@ nav form box-icon {
 }
 .recent-blog .post-container .post .down {
   padding: 25px;
+  background-color: #ffffff;
 }
 .recent-blog .post-container .post .down h4 :hover {
   color: #fd5f00;
@@ -664,8 +665,7 @@ footer {
 }
 footer .wrapper {
   padding-top: 80px;
-  -moz-column-gap: 28px;
-       column-gap: 28px;
+  flex-wrap: wrap;
 }
 footer .wrapper .question .container {
   flex-direction: column;
@@ -680,6 +680,7 @@ footer .wrapper .question .container p {
 }
 footer .wrapper > div {
   width: 25%;
+  padding: 0 14px;
 }
 footer .wrapper > div h2 {
   font-size: 22px;

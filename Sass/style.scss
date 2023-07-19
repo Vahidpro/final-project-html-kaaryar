@@ -598,11 +598,13 @@ nav {
 	background-color: $background-2;
 	padding: 110px 0;
 	.post-container {
-		column-gap: 30px;
+		// column-gap: 30px;
+		flex-wrap: wrap;
 		.post {
-			background-color: $light-color;
 			display: flex;
 			flex-direction: column;
+			width: 33.333%;
+			padding: 0 15px;
 			h4 a {
 				font-size: 20px;
 				font-weight: 400;
@@ -615,6 +617,7 @@ nav {
 
 			.down {
 				padding: 25px;
+				background-color: $light-color;
 
 				h4 {
 					:hover {
@@ -794,11 +797,12 @@ nav {
 }
 footer {
 	background-color: $dark-footer;
-
 	color: $primary-dark-text-color;
 	.wrapper {
 		padding-top: 80px;
-		column-gap: 28px;
+		// column-gap: 28px;
+		flex-wrap: wrap;
+
 		.question {
 			.container {
 				flex-direction: column;
@@ -814,6 +818,7 @@ footer {
 		}
 		> div {
 			width: 25%;
+			padding: 0 14px;
 			h2 {
 				font-size: 22px;
 				font-weight: 500;
