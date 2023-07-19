@@ -320,7 +320,7 @@ nav form box-icon {
   padding: 110px 0;
 }
 .courses-section .container {
-  padding: 60px 24px;
+  padding: 60px 15px;
 }
 .courses-section .container .card {
   width: 25%;
@@ -448,7 +448,7 @@ nav form box-icon {
   align-items: flex-end;
 }
 .quote-form-section .wrapper .right {
-  width: 450px;
+  width: 60%;
   flex-direction: column;
   color: #ffffff;
   margin: 80px 50px;
