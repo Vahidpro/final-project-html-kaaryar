@@ -70,56 +70,55 @@ button:hover,
   max-width: 720px;
 }
 
-.top-info {
-  background-color: #ffffff;
+.top-info .container {
+  padding: 15px 0;
   justify-content: space-between;
-  margin: 15px auto;
-  align-items: center;
+}
+.top-info .container .logo {
+  flex-direction: column;
+}
+.top-info .container .logo > p {
+  font-size: 38px;
+  font-weight: 900;
+}
+.top-info .container .logo span {
+  font-weight: 700;
+  font-size: 15px;
+  transform: translateY(-22px);
+}
+.top-info .container .contact-info p {
+  padding-left: 15px;
+}
+.top-info .container > div {
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-.top-info div .email,
-.top-info div .call,
-.top-info .apply {
-  flex-grow: 2;
-}
-.top-info .logo {
-  flex-grow: 3;
-  flex-direction: column;
-}
-.top-info .logo > p {
-  font-size: 35px;
-  font-weight: 900;
-}
-.top-info .logo span {
-  font-weight: 700;
-  font-size: 15px;
-  transform: translateY(-15px);
-}
-.top-info div {
-  -moz-column-gap: 15px;
-       column-gap: 15px;
-}
-.top-info div p {
+.top-info .container div p {
   font-size: 14px;
   font-weight: 700;
 }
-.top-info div:not(.logo, .apply) > :last-child {
+.top-info .container div:not(.logo, .apply) > :last-child {
   font-size: 15px;
   font-weight: 300;
 }
-.top-info .apply {
+.top-info .container .call {
+  padding-right: 160px;
+}
+.top-info .container .apply {
   justify-content: flex-end;
 }
-.top-info .apply button {
+.top-info .container .apply button {
   border-radius: 0;
   padding: 8px 16px;
+  min-width: 130px;
 }
 
 nav {
   background-color: #0d1128;
   height: 70px;
   justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1120px;
 }
 nav ul li a[href="#home"] {
   color: #fd5f00;
@@ -790,20 +789,4 @@ footer .wrapper .subscribe-connect .connect > div a:first-child {
 footer .copyright {
   text-align: center;
   padding: 80px 0;
-}
-
-@media screen and (max-width: 1200px) {
-  .wrapper {
-    margin: 0 auto;
-    max-width: 900px;
-  }
-  .comments-section .container {
-    max-width: 100%;
-  }
-  footer .blog .content span {
-    font-size: 12px !important;
-  }
-  footer .blog .content img {
-    width: 13px;
-  }
 }/*# sourceMappingURL=style.css.map */

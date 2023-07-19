@@ -108,35 +108,32 @@ button:hover,
 	}
 }
 
-.top-info {
-	background-color: $light-color;
+.top-info .container {
+	padding: 15px 0;
 	justify-content: space-between;
-	margin: 15px auto;
-	align-items: center;
-	column-gap: 30px;
-	div .email,
-	div .call,
-	.apply {
-		flex-grow: 2;
-	}
 
 	.logo {
-		flex-grow: 3;
 		flex-direction: column;
 
 		> p {
-			font-size: 35px;
+			font-size: 38px;
 			font-weight: 900;
 		}
 		span {
 			font-weight: 700;
 			font-size: 15px;
-			transform: translateY(-15px);
+			transform: translateY(-22px);
 		}
 	}
 
-	div {
-		column-gap: 15px;
+	.contact-info {
+		p {
+			padding-left: 15px;
+		}
+	}
+
+	> div {
+		column-gap: 30px;
 	}
 
 	div p {
@@ -148,12 +145,17 @@ button:hover,
 		font-weight: 300;
 	}
 
+	.call {
+		padding-right: 160px;
+	}
+
 	.apply {
 		justify-content: flex-end;
 
 		button {
 			border-radius: 0;
 			padding: 8px 16px;
+			min-width: 130px;
 		}
 	}
 }
@@ -162,6 +164,8 @@ nav {
 	background-color: $primary-dark-color;
 	height: 70px;
 	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1120px;
 	ul li {
 		a[href="#home"] {
 			color: $primary-color;
@@ -913,32 +917,4 @@ footer {
 		text-align: center;
 		padding: 80px 0;
 	}
-}
-
-@media screen and (max-width: 1200px) {
-	.wrapper {
-		margin: 0 auto;
-		max-width: 900px;
-	}
-
-	.comments-section {
-		.container {
-			max-width: 100%;
-		}
-	}
-	footer {
-		.blog {
-			.content {
-				span {
-					font-size: 12px !important;
-				}
-				img {
-					width: 13px;
-				}
-			}
-		}
-	}
-}
-
-@media screen and (max-width: 992px) {
 }
