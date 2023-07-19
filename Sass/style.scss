@@ -334,7 +334,6 @@ nav {
 	}
 	background: linear-gradient(45deg, $gradient-2 0%, $gradient-70 100%),
 		url(../assets/images/image_4.jpg) center center/cover no-repeat;
-	// height: 20%;
 	background-attachment: fixed;
 	color: $light-color;
 
@@ -346,6 +345,7 @@ nav {
 			.img {
 				background: url(../assets/images/about-2.jpg);
 				background-position: center center;
+				background-size: cover;
 				width: 100%;
 				height: 100%;
 			}

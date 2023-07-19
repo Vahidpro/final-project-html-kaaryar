@@ -37,6 +37,25 @@
   .offer-section .left > div:not(.title) {
     width: 100%;
   }
+  .about-section .top {
+    flex-direction: column;
+  }
+  .about-section .top .img-container {
+    width: 100%;
+    height: 380px;
+  }
+  .about-section .top > div,
+  .about-section .top .right {
+    width: 100%;
+    padding: 30px 0;
+  }
+  .about-section .down {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-section .down > div {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .wrapper {
