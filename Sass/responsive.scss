@@ -1,4 +1,14 @@
 @media screen and (max-width: 320px) {
+	.offer-section .left {
+		padding: 0;
+		> div:not(.offer-title) {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			justify-content: center;
+			padding: 0;
+		}
+	}
 	.recent-blog .post-container .post .down .container {
 		justify-content: center;
 	}
@@ -17,7 +27,7 @@
 
 	footer {
 		.copyright {
-			padding: 0 0 !important;
+			padding: 20px 0 !important;
 		}
 		.wrapper {
 			.blog .post-container .post {
@@ -56,6 +66,9 @@
 			flex-direction: column;
 			row-gap: 20px;
 		}
+		.call {
+			padding-right: 0;
+		}
 	}
 	nav {
 		justify-content: flex-end;
@@ -93,8 +106,10 @@
 
 		.left {
 			width: 100%;
-			> div:not(.title) {
+			padding: 0;
+			> div:not(.offer-title) {
 				width: 100%;
+				padding: 20px 0;
 			}
 		}
 	}
@@ -143,6 +158,7 @@
 		.img-container .img {
 			background-position-y: top;
 		}
+		margin-bottom: 30px;
 	}
 
 	.quote-form-section {
@@ -306,6 +322,15 @@
 					width: 13px;
 				}
 			}
+		}
+	}
+}
+
+@media screen and (min-width: 1201px) {
+	.hero-section .wrapper {
+		P,
+		h1 {
+			max-width: 50%;
 		}
 	}
 }

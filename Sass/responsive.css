@@ -1,4 +1,14 @@
 @media screen and (max-width: 320px) {
+  .offer-section .left {
+    padding: 0;
+  }
+  .offer-section .left > div:not(.offer-title) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+  }
   .recent-blog .post-container .post .down .container {
     justify-content: center;
   }
@@ -14,7 +24,7 @@
     text-align: center;
   }
   footer .copyright {
-    padding: 0 0 !important;
+    padding: 20px 0 !important;
   }
   footer .wrapper .blog .post-container .post {
     flex-direction: column;
@@ -44,6 +54,9 @@
   .top-info .container .contact-info {
     flex-direction: column;
     row-gap: 20px;
+  }
+  .top-info .container .call {
+    padding-right: 0;
   }
   nav {
     justify-content: flex-end;
@@ -75,9 +88,11 @@
   }
   .offer-section .left {
     width: 100%;
+    padding: 0;
   }
-  .offer-section .left > div:not(.title) {
+  .offer-section .left > div:not(.offer-title) {
     width: 100%;
+    padding: 20px 0;
   }
   .about-section {
     background-attachment: scroll;
@@ -114,6 +129,7 @@
   .teachers-section .card-container .card {
     width: 100%;
     padding: 24px 15px;
+    margin-bottom: 30px;
   }
   .teachers-section .card-container .card .img-container .img {
     background-position-y: top;
@@ -246,5 +262,11 @@
   }
   footer .blog .content img {
     width: 13px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .hero-section .wrapper P,
+  .hero-section .wrapper h1 {
+    max-width: 50%;
   }
 }/*# sourceMappingURL=responsive.css.map */
