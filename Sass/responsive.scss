@@ -4,6 +4,17 @@
 		max-width: 500px;
 	}
 
+	// Ttile for sections info
+	.title {
+		h3 {
+			font-size: 30px;
+		}
+		h3,
+		p {
+			max-width: 90%;
+		}
+	}
+
 	.top-info .container {
 		flex-direction: column;
 
@@ -68,6 +79,17 @@
 
 			> div {
 				width: 100%;
+			}
+		}
+	}
+	.courses-section .container {
+		flex-wrap: wrap;
+
+		.card {
+			width: 100%;
+			padding: 30px 10px;
+			.info {
+				justify-content: space-around;
 			}
 		}
 	}

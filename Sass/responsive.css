@@ -3,6 +3,13 @@
     margin: 0 auto;
     max-width: 500px;
   }
+  .title h3 {
+    font-size: 30px;
+  }
+  .title h3,
+  .title p {
+    max-width: 90%;
+  }
   .top-info .container {
     flex-direction: column;
   }
@@ -58,6 +65,16 @@
   }
   .about-section .down > div {
     width: 100%;
+  }
+  .courses-section .container {
+    flex-wrap: wrap;
+  }
+  .courses-section .container .card {
+    width: 100%;
+    padding: 30px 10px;
+  }
+  .courses-section .container .card .info {
+    justify-content: space-around;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
