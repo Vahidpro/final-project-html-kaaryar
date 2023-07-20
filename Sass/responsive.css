@@ -28,6 +28,13 @@
     align-items: center;
     text-align: center;
   }
+  .hero-section .wrapper h1 {
+    font-size: 40px;
+  }
+  .hero-section .wrapper P,
+  .hero-section .wrapper h1 {
+    max-width: 100%;
+  }
   .features-section {
     flex-wrap: wrap;
   }

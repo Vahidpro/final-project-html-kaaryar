@@ -33,6 +33,15 @@
 	.hero-section .wrapper {
 		align-items: center;
 		text-align: center;
+
+		h1 {
+			font-size: 40px;
+		}
+
+		P,
+		h1 {
+			max-width: 100%;
+		}
 	}
 
 	.features-section {
