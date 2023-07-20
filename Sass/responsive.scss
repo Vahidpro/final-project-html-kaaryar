@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
 	.wrapper {
 		margin: 0 auto;
-		max-width: 500px;
+		max-width: 550px;
 	}
 
 	// Ttile for sections info
@@ -116,6 +116,11 @@
 				width: 100%;
 			}
 		}
+	}
+
+	.recent-blog .post-container .post {
+		width: 100%;
+		margin: 20px 0;
 	}
 }
 
