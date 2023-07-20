@@ -2,6 +2,34 @@
 	.recent-blog .post-container .post .down .container {
 		justify-content: center;
 	}
+	.comments-section .container {
+		flex-direction: column;
+		padding: 0 15px;
+		> div {
+			margin-left: 0;
+
+			h3,
+			h4 {
+				text-align: center;
+			}
+		}
+	}
+
+	footer {
+		.copyright {
+			padding: 0 0 !important;
+		}
+		.wrapper {
+			.blog .post-container .post {
+				flex-direction: column;
+				row-gap: 20px;
+			}
+
+			.question .container > div {
+				column-gap: 8px;
+			}
+		}
+	}
 }
 @media screen and (max-width: 768px) {
 	.wrapper {
@@ -143,6 +171,11 @@
 	.recent-blog .post-container .post {
 		width: 100%;
 		margin: 20px 0;
+	}
+
+	.comments-section .container div {
+		flex-direction: column;
+		margin-left: 20px;
 	}
 
 	.gallery-section .img-container {
