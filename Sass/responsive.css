@@ -101,6 +101,9 @@
     width: 100%;
     margin: 20px 0;
   }
+  .gallery-section .img-container {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .wrapper {

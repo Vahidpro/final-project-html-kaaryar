@@ -122,6 +122,10 @@
 		width: 100%;
 		margin: 20px 0;
 	}
+
+	.gallery-section .img-container {
+		flex-wrap: wrap;
+	}
 }
 
 // Desktop
