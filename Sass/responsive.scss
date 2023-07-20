@@ -1,3 +1,8 @@
+@media screen and (max-width: 320px) {
+	.recent-blog .post-container .post .down .container {
+		justify-content: center;
+	}
+}
 @media screen and (max-width: 768px) {
 	.wrapper {
 		margin: 0 auto;
