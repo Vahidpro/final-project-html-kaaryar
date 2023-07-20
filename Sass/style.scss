@@ -334,7 +334,8 @@ nav {
 
 .about-section {
 	.wrapper {
-		padding: 100px 0;
+		padding-top: 100px;
+		padding-bottom: 100px;
 	}
 	background: linear-gradient(45deg, $gradient-2 0%, $gradient-70 100%),
 		url(../assets/images/image_4.jpg) center center/cover no-repeat;

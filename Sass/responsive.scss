@@ -115,18 +115,21 @@
 	.quote-form-section {
 		background-attachment: scroll;
 		background-position-x: 40%;
-		.wrapper .right {
-			width: 100%;
-			margin: 80px 0;
+		.wrapper {
+			min-width: unset;
+			.right {
+				width: 100%;
+				margin: 80px 0;
 
-			form {
-				flex-direction: column;
-				flex-wrap: nowrap;
-				> input,
-				select,
-				textarea,
-				button {
-					width: 100%;
+				form {
+					flex-direction: column;
+					flex-wrap: nowrap;
+					> input,
+					select,
+					textarea,
+					button {
+						width: 100%;
+					}
 				}
 			}
 		}
