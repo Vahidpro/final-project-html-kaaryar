@@ -76,6 +76,13 @@
   .courses-section .container .card .info {
     justify-content: space-around;
   }
+  .teachers-section .card-container .card {
+    width: 100%;
+    padding: 24px 15px;
+  }
+  .teachers-section .card-container .card .img-container .img {
+    background-position-y: top;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .wrapper {

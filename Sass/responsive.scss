@@ -93,6 +93,14 @@
 			}
 		}
 	}
+
+	.teachers-section .card-container .card {
+		width: 100%;
+		padding: 24px 15px;
+		.img-container .img {
+			background-position-y: top;
+		}
+	}
 }
 
 // Desktop
