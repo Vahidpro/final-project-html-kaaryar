@@ -198,13 +198,16 @@
     width: 100%;
   }
   nav {
-    justify-content: flex-end;
+    justify-content: space-around;
   }
   nav ul {
     display: none !important;
   }
   nav form input {
     width: unset;
+  }
+  nav .toggle-menu {
+    display: flex;
   }
   .offer-section .left > div:not(.offer-title) {
     width: 100%;

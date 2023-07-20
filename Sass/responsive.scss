@@ -235,7 +235,7 @@
 	}
 
 	nav {
-		justify-content: flex-end;
+		justify-content: space-around;
 		ul {
 			display: none !important;
 		}
@@ -243,6 +243,10 @@
 			input {
 				width: unset;
 			}
+		}
+
+		.toggle-menu {
+			display: flex;
 		}
 	}
 

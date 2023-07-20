@@ -175,6 +175,20 @@ nav form button {
 nav form box-icon {
   transform: translateY(3px);
 }
+nav .toggle-menu {
+  display: none;
+  color: #868894;
+  font-weight: 600;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  cursor: pointer;
+}
+nav .toggle-menu span {
+  font-size: 20px;
+}
+nav .toggle-menu img {
+  width: 30px;
+}
 
 .hero-section {
   background: linear-gradient(45deg, rgba(13, 17, 40, 0.5411764706) 0%, rgba(253, 97, 0, 0.5019607843) 100%), 0% 0%/cover no-repeat url(../assets/images/bg_1.jpg);

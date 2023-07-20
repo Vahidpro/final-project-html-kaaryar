@@ -216,6 +216,19 @@ nav {
 			transform: translateY(3px);
 		}
 	}
+	.toggle-menu {
+		display: none;
+		color: #868894;
+		font-weight: 600;
+		column-gap: 5px;
+		cursor: pointer;
+		span {
+			font-size: 20px;
+		}
+		img {
+			width: 30px;
+		}
+	}
 }
 
 .hero-section {
