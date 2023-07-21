@@ -282,15 +282,13 @@ nav input:checked + ul {
   width: 60%;
   padding: 40px 30px 40px 0;
 }
-.offer-section .left .offer-title {
-  padding: 40px 0;
-}
 .offer-section .left .offer-title h2 {
   font-size: 32px;
   font-weight: 500;
+  color: #333333;
 }
 .offer-section .left .offer-title p {
-  padding: 30px 0;
+  padding-top: 30px 0;
   color: #666666;
 }
 .offer-section .left .offers-container {
@@ -315,7 +313,9 @@ nav input:checked + ul {
   width: 50%;
 }
 .offer-section .left .offers-container > div h3 {
+  font-size: 20px;
   font-weight: 500;
+  color: #333333;
 }
 .offer-section .left .offers-container > div p {
   margin-top: 10px;

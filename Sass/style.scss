@@ -8,6 +8,7 @@ $primary-dark-300: #2f334d;
 $light-color: #ffffff;
 $dark-color: #323232;
 $dark-color-2: #4c4c4c;
+$dark-color-3: #333333;
 $dark-footer: #232323;
 $gray-color: #424242;
 $light-gray: #666666;
@@ -326,13 +327,13 @@ nav {
 		padding: 40px 30px 40px 0;
 
 		.offer-title {
-			padding: 40px 0;
 			h2 {
 				font-size: 32px;
 				font-weight: 500;
+				color: $dark-color-3;
 			}
 			p {
-				padding: 30px 0;
+				padding-top: 30px 0;
 				color: $light-gray;
 			}
 		}
@@ -359,7 +360,9 @@ nav {
 				width: 50%;
 
 				h3 {
+					font-size: 20px;
 					font-weight: 500;
+					color: $dark-color-3;
 				}
 				p {
 					margin-top: 10px;
