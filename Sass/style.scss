@@ -28,7 +28,6 @@ $font-family-poppins: "Poppins", sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	line-height: 1.8;
 	scroll-behavior: smooth;
 }
 
@@ -48,6 +47,7 @@ textarea,
 ::after,
 ::before {
 	font-family: Poppins, sans-serif;
+	line-height: 1.8;
 }
 
 header:not(ul) {
