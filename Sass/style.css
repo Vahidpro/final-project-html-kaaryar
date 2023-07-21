@@ -9,6 +9,25 @@
   line-height: 1.8;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+span,
+input,
+select,
+::after,
+::before {
+  font-family: Poppins, sans-serif;
+}
+
+header:not(ul) {
+  z-index: 100;
+}
+
 .wrapper {
   margin: 0 auto;
   padding: 0 15px;
@@ -74,6 +93,8 @@ button:hover,
 }
 
 .top-info .container {
+  z-index: 20;
+  position: relative;
   padding: 15px 0;
   justify-content: space-between;
 }
@@ -122,6 +143,11 @@ nav {
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1120px;
+  z-index: 20;
+}
+nav ul {
+  display: flex;
+  transition: all 0.5s;
 }
 nav ul li a[href="#home"] {
   color: #fd5f00;
@@ -188,6 +214,10 @@ nav .toggle-menu span {
 }
 nav .toggle-menu img {
   width: 30px;
+}
+nav input:checked + ul {
+  top: 247.578px;
+  left: 0;
 }
 
 .hero-section {

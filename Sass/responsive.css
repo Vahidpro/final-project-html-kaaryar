@@ -198,16 +198,29 @@
     width: 100%;
   }
   nav {
+    z-index: 0;
     justify-content: space-around;
-  }
-  nav ul {
-    display: none !important;
   }
   nav form input {
     width: unset;
   }
   nav .toggle-menu {
-    display: flex;
+    display: flex !important;
+  }
+  nav ul {
+    transition: all 0.7s;
+    background-color: #0d1128;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    left: -100%;
+    top: 247.578px;
+  }
+  nav ul li {
+    padding: 16px 10%;
+  }
+  nav ul li a {
+    font-size: 20px;
   }
   .offer-section .left > div:not(.offer-title) {
     width: 100%;
