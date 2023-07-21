@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
   line-height: 1.8;
 }
 
@@ -19,6 +18,8 @@ h6,
 span,
 input,
 select,
+button,
+a,
 ::after,
 ::before {
   font-family: Poppins, sans-serif;
@@ -123,7 +124,8 @@ button:hover,
 }
 .top-info .container div:not(.logo, .apply) > :last-child {
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
+  color: #4c4c4c;
 }
 .top-info .container .call {
   padding-right: 160px;
@@ -168,10 +170,6 @@ nav form {
   justify-content: space-between;
   -moz-column-gap: 15px;
        column-gap: 15px;
-  button-background-color: #0d1128;
-  button-border: none;
-  button-margin-right: 20px;
-  button-padding: 0;
 }
 nav form input {
   border: none;
@@ -197,6 +195,9 @@ nav form button {
   border: none;
   margin-right: 20px;
   padding: 0;
+}
+nav form button:hover {
+  border: none;
 }
 nav form box-icon {
   transform: translateY(3px);

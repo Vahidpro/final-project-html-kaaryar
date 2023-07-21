@@ -7,6 +7,7 @@ $primary-dark-text-color: #eaeaeb;
 $primary-dark-300: #2f334d;
 $light-color: #ffffff;
 $dark-color: #323232;
+$dark-color-2: #4c4c4c;
 $dark-footer: #232323;
 $gray-color: #424242;
 $light-gray: #666666;
@@ -26,13 +27,8 @@ $font-family-poppins: "Poppins", sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: $font-family-poppins;
 	line-height: 1.8;
 }
-
-// body {
-// 	overflow-x: hidden;
-// }
 
 p,
 h1,
@@ -44,6 +40,8 @@ h6,
 span,
 input,
 select,
+button,
+a,
 ::after,
 ::before {
 	font-family: Poppins, sans-serif;
@@ -129,7 +127,6 @@ button:hover,
 	p {
 		text-align: center;
 		max-width: 720px;
-		// margin: 40px auto;
 	}
 }
 
@@ -169,7 +166,8 @@ button:hover,
 	}
 	div:not(.logo, .apply) > :last-child {
 		font-size: 15px;
-		font-weight: 300;
+		font-weight: 400;
+		color: $dark-color-2;
 	}
 
 	.call {
@@ -235,11 +233,8 @@ nav {
 			padding: 0;
 		}
 
-		button: {
-			background-color: $primary-dark-color;
+		button:hover {
 			border: none;
-			margin-right: 20px;
-			padding: 0;
 		}
 		box-icon {
 			transform: translateY(3px);
