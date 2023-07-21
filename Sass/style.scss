@@ -707,6 +707,14 @@ nav {
 
 					.btn {
 						padding: 5px 15px;
+						align-items: center;
+						column-gap: 5px;
+
+						&:hover {
+							svg :nth-child(2) {
+								fill: $primary-color;
+							}
+						}
 					}
 
 					.info {

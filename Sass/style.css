@@ -614,6 +614,12 @@ nav input:checked + ul {
 }
 .recent-blog .post-container .post .down .container .btn {
   padding: 5px 15px;
+  align-items: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.recent-blog .post-container .post .down .container .btn:hover svg :nth-child(2) {
+  fill: #fd5f00;
 }
 .recent-blog .post-container .post .down .container .info {
   display: flex;
