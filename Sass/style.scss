@@ -64,6 +64,9 @@ header:not(ul) {
 	&:not(:focus) {
 		color: $primary-dark-text-color;
 	}
+	&:focus::placeholder {
+		transform: none;
+	}
 }
 
 @mixin background-center {
@@ -639,6 +642,7 @@ nav {
 					border-bottom: 1px solid $border-bottom;
 					width: 47%;
 					height: 60px;
+					font-size: 16px;
 
 					&:focus {
 						outline: none;
