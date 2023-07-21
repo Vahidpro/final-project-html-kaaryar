@@ -44,6 +44,7 @@ input,
 select,
 button,
 a,
+textarea,
 ::after,
 ::before {
 	font-family: Poppins, sans-serif;
@@ -112,6 +113,10 @@ button:hover,
 	background-color: transparent;
 	color: $primary-color;
 	border: 1px solid $primary-color;
+}
+
+.section-padding {
+	padding: 110px 0;
 }
 
 // Ttile for sections info
@@ -197,9 +202,11 @@ nav {
 	margin: 0 auto;
 	max-width: 1120px;
 	column-gap: 10px;
+
 	ul {
 		display: flex;
 		transition: all 0.5s;
+		flex-grow: 1;
 		li {
 			a[href="#home"] {
 				color: $primary-color;
@@ -245,6 +252,7 @@ nav {
 			transform: translateY(3px);
 		}
 	}
+
 	.toggle-menu {
 		display: none;
 		color: #868894;
@@ -451,7 +459,6 @@ nav {
 }
 
 .courses-section {
-	padding: 110px 0;
 	.container {
 		padding: 60px 15px;
 		.card {
@@ -522,8 +529,8 @@ nav {
 }
 
 .teachers-section {
-	padding: 110px 10px;
 	background-color: $background-2;
+	margin: 0 10px;
 	.card-container {
 		margin: 35px 0;
 		flex-wrap: wrap;
@@ -672,7 +679,6 @@ nav {
 
 .recent-blog {
 	background-color: $background-2;
-	padding: 110px 0;
 	.post-container {
 		// column-gap: 30px;
 		flex-wrap: wrap;
@@ -891,9 +897,7 @@ footer {
 	color: $primary-dark-text-color;
 	.wrapper {
 		padding-top: 80px;
-		// column-gap: 28px;
 		flex-wrap: wrap;
-
 		.question {
 			.container {
 				flex-direction: column;

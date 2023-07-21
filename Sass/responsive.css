@@ -1,6 +1,10 @@
 @media screen and (max-width: 320px) {
-  nav form {
-    width: 80%;
+  nav .burger {
+    flex-grow: 1;
+    padding-left: 0;
+  }
+  nav .burger form {
+    width: 70%;
   }
   .offer-section .left {
     padding: 0;
@@ -68,8 +72,9 @@
   .top-info .container .call {
     padding-right: 0;
   }
-  nav {
-    justify-content: space-evenly;
+  nav .burger {
+    flex-grow: 1;
+    padding-left: 5%;
   }
   nav form input {
     width: 40%;
@@ -87,7 +92,7 @@
     top: 386.562px;
   }
   nav ul li {
-    padding: 16px 10%;
+    padding: 16px 5%;
   }
   nav ul li a {
     font-size: 20px;
@@ -224,8 +229,9 @@
     align-self: flex-end;
     width: 100%;
   }
-  nav {
-    justify-content: space-around;
+  nav .burger {
+    flex-grow: 1;
+    padding-left: 10%;
   }
   nav form input {
     width: unset;
