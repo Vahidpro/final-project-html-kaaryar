@@ -4,12 +4,20 @@
 	}
 	.offer-section .left {
 		padding: 0;
-		> div:not(.offer-title) {
-			flex-direction: column;
-			align-items: center;
-			text-align: center;
-			justify-content: center;
-			padding: 0;
+		.offers-container {
+			padding: 0 0;
+			> div {
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
+
+				.img {
+					margin-right: 0;
+					img {
+						height: 50px;
+					}
+				}
+			}
 		}
 	}
 	.recent-blog .post-container .post .down .container {
@@ -44,7 +52,7 @@
 		}
 	}
 }
-@media screen and (min-width: 230px) and (max-width: 769px) {
+@media screen and (max-width: 769px) {
 	.wrapper {
 		margin: 0 auto;
 		padding: 0 15px;
@@ -135,7 +143,7 @@
 		.left {
 			width: 100%;
 			padding: 0;
-			> div:not(.offer-title) {
+			.offers-container > div {
 				width: 100%;
 				padding: 20px 0;
 			}
@@ -298,7 +306,7 @@
 	}
 
 	// Offer section
-	.offer-section .left > div:not(.offer-title) {
+	.offer-section .left .offers-container > div {
 		width: 100%;
 	}
 
