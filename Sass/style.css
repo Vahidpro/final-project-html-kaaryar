@@ -486,6 +486,7 @@ nav input:checked + ul {
   font-weight: 600;
   padding: 15px 0 5px 0;
   transition: all 0.5s;
+  color: #333333;
 }
 .teachers-section .card-container .card .role {
   letter-spacing: 2px;
