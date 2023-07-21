@@ -63,7 +63,9 @@
   }
   nav {
     justify-content: space-evenly;
-    flex-wrap: wrap;
+  }
+  nav form input {
+    width: 40%;
   }
   nav .toggle-menu {
     display: flex !important;

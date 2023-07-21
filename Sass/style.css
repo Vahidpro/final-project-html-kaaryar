@@ -143,7 +143,8 @@ nav {
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1120px;
-  z-index: 20;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
 nav ul {
   display: flex;
@@ -175,7 +176,6 @@ nav form {
 nav form input {
   border: none;
   background-color: #0d1128;
-  width: 250px;
   margin-left: 15px;
   font-weight: 500;
   font-size: 17px;

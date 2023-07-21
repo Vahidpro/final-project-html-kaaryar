@@ -193,8 +193,7 @@ nav {
 	justify-content: space-between;
 	margin: 0 auto;
 	max-width: 1120px;
-	// overflow: hidden;
-	z-index: 20;
+	column-gap: 10px;
 	ul {
 		display: flex;
 		transition: all 0.5s;
@@ -218,11 +217,11 @@ nav {
 		margin-right: 20px;
 		justify-content: space-between;
 		column-gap: 15px;
+		// width: 200px;
 
 		input {
 			border: none;
 			background-color: $primary-dark-color;
-			width: 250px;
 			margin-left: 15px;
 			font-weight: 500;
 			font-size: 17px;
