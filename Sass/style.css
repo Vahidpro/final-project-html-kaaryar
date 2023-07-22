@@ -402,7 +402,7 @@ nav input:checked + ul {
 }
 
 .courses-section .container {
-  padding: 20px 15px;
+  padding: 0 15px;
 }
 .courses-section .container .card {
   width: 25%;
@@ -844,6 +844,7 @@ footer .wrapper .subscribe-connect .subscribe form button {
 }
 footer .wrapper .subscribe-connect .subscribe form input {
   background-color: #393939;
+  font-size: 16px;
 }
 footer .wrapper .subscribe-connect .subscribe form input::-moz-placeholder {
   color: #eaeaeb;
