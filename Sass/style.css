@@ -82,6 +82,7 @@ button:hover,
 
 .title {
   flex-direction: column;
+  padding-bottom: 40px;
 }
 .title h3 {
   font-size: 45px;
@@ -401,7 +402,7 @@ nav input:checked + ul {
 }
 
 .courses-section .container {
-  padding: 60px 15px;
+  padding: 20px 15px;
 }
 .courses-section .container .card {
   width: 25%;
@@ -455,7 +456,6 @@ nav input:checked + ul {
   margin: 0 10px;
 }
 .teachers-section .card-container {
-  margin: 35px 0;
   flex-wrap: wrap;
   width: 100%;
 }
