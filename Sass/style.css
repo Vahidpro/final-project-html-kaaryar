@@ -651,8 +651,9 @@ nav input:checked + ul {
 .recent-blog .post-container .post .down .container .info > :last-child {
   color: #b3b3b3;
 }
-.recent-blog .post-container .post .down .container .info > :last-child img {
-  transform: translateY(2px);
+.recent-blog .post-container .post .down .container .info > :last-child span {
+  display: flex;
+  justify-content: center;
 }
 .recent-blog .post-container .img-container {
   height: 280px;
