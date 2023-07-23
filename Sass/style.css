@@ -57,14 +57,14 @@ a {
 
 button,
 .btn {
-  background-color: #fd5f00;
+  background-color: #005fcc;
   color: #ffffff;
   padding: 16px 20px;
   cursor: pointer;
   border-radius: 50px;
   font-size: 16px;
   transition: 0.2s;
-  border: 1px solid #fd5f00;
+  border: 1px solid #005fcc;
   text-align: center;
   margin: auto 0;
 }
@@ -72,8 +72,8 @@ button,
 button:hover,
 .btn:hover {
   background-color: transparent;
-  color: #fd5f00;
-  border: 1px solid #fd5f00;
+  color: #005fcc;
+  border: 1px solid #005fcc;
 }
 
 .section-padding {
@@ -161,7 +161,7 @@ nav ul {
   flex-grow: 1;
 }
 nav ul li a[href="#home"] {
-  color: #fd5f00;
+  color: #005fcc;
 }
 nav ul li a {
   text-decoration: none;
@@ -235,7 +235,7 @@ nav input:checked + ul {
 }
 
 .hero-section {
-  background: linear-gradient(45deg, rgba(13, 17, 40, 0.5411764706) 0%, rgba(253, 97, 0, 0.5019607843) 100%), 0% 0%/cover no-repeat url(../assets/images/bg_1.jpg);
+  background: linear-gradient(45deg, rgba(13, 17, 40, 0.7) 0%, rgba(0, 95, 204, 0.5) 100%), 0% 0%/cover no-repeat url(../assets/images/bg_1.jpg);
   color: #ffffff;
 }
 .hero-section .slogan {
@@ -275,7 +275,7 @@ nav input:checked + ul {
   height: 50px;
 }
 .features-section .primary-light {
-  background-color: #fd5f00;
+  background-color: #005fcc;
 }
 .features-section .primary-light p {
   color: #ffdfcc;
@@ -315,7 +315,7 @@ nav input:checked + ul {
   height: 80px;
   width: 80px;
   padding: 15px;
-  background-color: #fd5f00;
+  background-color: #005fcc;
   border-radius: 50px;
   margin-right: 20px;
 }
@@ -345,7 +345,7 @@ nav input:checked + ul {
 }
 
 .about-section {
-  background: linear-gradient(45deg, rgba(13, 17, 40, 0.5411764706) 0%, rgba(253, 97, 0, 0.6862745098) 100%), url(../assets/images/image_4.jpg) center center/cover no-repeat;
+  background: linear-gradient(45deg, rgba(13, 17, 40, 0.7) 0%, rgba(0, 95, 204, 0.7) 100%), url(../assets/images/image_4.jpg) center center/cover no-repeat;
   background-attachment: fixed;
   color: #ffffff;
 }
@@ -498,7 +498,7 @@ nav input:checked + ul {
   letter-spacing: 2px;
   font-size: 13px;
   font-weight: 600;
-  color: #fd5f00;
+  color: #005fcc;
 }
 .teachers-section .card-container .card p {
   color: #666666;
@@ -512,11 +512,11 @@ nav input:checked + ul {
   opacity: 1;
 }
 .teachers-section .card-container .card:hover.card .name {
-  color: #fd5f00;
+  color: #005fcc;
 }
 
 .quote-form-section {
-  background: linear-gradient(-110deg, rgba(13, 17, 40, 0.7803921569) 0%, rgba(253, 97, 0, 0.6862745098) 100%), url(../assets/images/bg_5.jpg);
+  background: linear-gradient(-110deg, rgba(13, 17, 40, 0.7) 0%, rgba(0, 95, 204, 0.7) 100%), url(../assets/images/bg_5.jpg);
   background-attachment: fixed;
   background-position-x: 30%;
 }
@@ -578,7 +578,7 @@ nav input:checked + ul {
   resize: none;
 }
 .quote-form-section .wrapper .right form option {
-  color: #fd5f00;
+  color: #005fcc;
 }
 
 .recent-blog {
@@ -607,7 +607,7 @@ nav input:checked + ul {
   background-color: #ffffff;
 }
 .recent-blog .post-container .post .down h4 :hover {
-  color: #fd5f00;
+  color: #005fcc;
   transition: all 0.3s ease-out;
 }
 .recent-blog .post-container .post .down .container {
@@ -626,7 +626,7 @@ nav input:checked + ul {
        column-gap: 5px;
 }
 .recent-blog .post-container .post .down .container .btn:hover svg :nth-child(2) {
-  fill: #fd5f00;
+  fill: #005fcc;
 }
 .recent-blog .post-container .post .down .container .info {
   display: flex;
@@ -643,7 +643,7 @@ nav input:checked + ul {
 .recent-blog .post-container .post .down .container .info h3 {
   font-size: 16px;
   font-weight: 400;
-  color: #fd5f00;
+  color: #005fcc;
 }
 .recent-blog .post-container .post .down .container .info > :last-child {
   color: #b3b3b3;
@@ -720,7 +720,7 @@ nav input:checked + ul {
 .comments-section .container div h4 {
   font-weight: 400;
   font-size: 14;
-  color: #fd5f00;
+  color: #005fcc;
 }
 
 .gallery-section .img-container > div {
@@ -740,7 +740,7 @@ nav input:checked + ul {
   top: 50%;
   transform: translate(50%, -50%);
   padding: 10px;
-  background-color: #fd5f00;
+  background-color: #005fcc;
   border-radius: 5px;
   opacity: 0;
   transition: all 0.3s ease-out;
@@ -820,7 +820,7 @@ footer .wrapper .blog .post-container .post .content h3 {
   transition: all 0.5s;
 }
 footer .wrapper .blog .post-container .post .content h3:hover {
-  color: #fd5f00;
+  color: #005fcc;
 }
 footer .wrapper .blog .post-container .post .content span {
   color: #b3b3b3;
@@ -876,7 +876,7 @@ footer .wrapper .subscribe-connect .subscribe form button {
   background-color: #5d50c6;
 }
 footer .wrapper .subscribe-connect .subscribe form button:hover {
-  background-color: #fd5f00;
+  background-color: #005fcc;
   color: #ffffff;
 }
 footer .wrapper .subscribe-connect .connect .title {
