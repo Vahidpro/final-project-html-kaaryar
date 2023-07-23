@@ -200,7 +200,7 @@ button:hover,
 	}
 }
 
-// Navigation Menu, both for mobile and desktop
+// Navigation Menu
 nav {
 	background-color: $primary-dark-color;
 	height: 70px;
@@ -208,7 +208,6 @@ nav {
 	margin: 0 auto;
 	max-width: 1120px;
 	column-gap: 10px;
-
 	ul {
 		display: flex;
 		transition: all 0.5s;
@@ -233,7 +232,6 @@ nav {
 		margin-right: 20px;
 		justify-content: space-between;
 		column-gap: 15px;
-		// width: 200px;
 
 		input {
 			border: none;
@@ -243,14 +241,12 @@ nav {
 			font-size: 17px;
 			@include placeholder-style;
 		}
-
 		button {
 			background-color: $primary-dark-color;
 			border: none;
 			margin-right: 20px;
 			padding: 0;
 		}
-
 		button:hover {
 			border: none;
 		}
@@ -281,7 +277,6 @@ nav {
 .hero-section {
 	background: linear-gradient(45deg, $gradient-2 0%, $gradient-1 100%),
 		0% 0% / cover no-repeat url(../assets/images/bg_1.jpg);
-	// height: 600px;
 	color: $light-color;
 
 	.slogan {
@@ -493,26 +488,7 @@ nav {
 						padding: 0 5px;
 					}
 				}
-
-				.user {
-					position: relative;
-					// img {
-					// display: block;
-					// width: 12px;
-					// &::before {
-					// 	content: "";
-					// 	background: url(../assets/icons/user-solid.svg) center center /
-					// 		cover no-repeat;
-					// 	position: absolute;
-					// 	width: 15px;
-					// 	height: 15px;
-					// 	top: 0;
-					// 	left: 0;
-					// }
-					// }
-				}
 			}
-
 			> :last-child {
 				flex-direction: column;
 				h2 {
@@ -558,7 +534,7 @@ nav {
 				flex-wrap: wrap;
 				.img {
 					height: 100%;
-					background: center center/ cover no-repeat;
+					@include background-center;
 					transition: 0.3s;
 				}
 			}
@@ -585,12 +561,14 @@ nav {
 				transition: all 0.5s;
 				color: $dark-color-3;
 			}
+
 			.role {
 				letter-spacing: 2px;
 				font-size: 13px;
 				font-weight: 600;
 				color: $primary-color;
 			}
+
 			p {
 				color: $light-gray;
 				padding-top: 10px;
@@ -601,16 +579,6 @@ nav {
 					.img {
 						transform: scale(103%) translateY(-4px);
 					}
-					// .img::after {
-					// 	content: "";
-					// 	background: url(../assets/icons/calendar-bold.svg) center
-					// 		center/cover no-repeat;
-					// 	height: 100px;
-					// 	width: 100px;
-					// 	bottom: 10px;
-					// 	left: 10px;
-					// 	position: absolute;
-					// }
 				}
 				.social-container {
 					transform: translateY(-30px);
@@ -627,7 +595,7 @@ nav {
 // Quote Form Section
 .quote-form-section {
 	background: linear-gradient(-110deg, $gradient-3 0%, $gradient-70 100%),
-		url(../assets/images/bg_5.jpg) center center/ cover no-repeat;
+		url(../assets/images/bg_5.jpg);
 	background-attachment: fixed;
 	background-position-x: 30%;
 	.wrapper {
@@ -799,14 +767,13 @@ nav {
 		.img {
 			width: 100%;
 			height: 100%;
-			background: center center/ cover no-repeat;
+			@include background-center;
 		}
 	}
 }
 
 .comments-section {
 	padding: 110px 0;
-
 	.container {
 		max-width: 580px;
 		margin: 50px auto 80px auto;
@@ -823,17 +790,7 @@ nav {
 		div {
 			flex-direction: column;
 			margin-left: 40px;
-			// position: relative;
-			// .quote-icon {
-			// 	background: url(../assets/icons/quote-left.svg) no-repeat;
-			// 	background-size: 100px;
-			// 	background-position: 0 -30px;
-			// 	width: 500px;
-			// 	height: 100px;
-			// 	position: absolute;
-			// 	left: 0;
-			// 	top: -45;
-			// }
+
 			p {
 				background: url(../assets/icons/quote-left.svg) no-repeat;
 				background-size: 100px;
@@ -843,18 +800,6 @@ nav {
 				line-height: 30px;
 				margin-bottom: 20px;
 				padding-top: 80px;
-
-				// &::before {
-				// 	content: "";
-				// 	background: url(../assets/icons/quote-left.svg) no-repeat;
-				// 	background-size: 100px;
-				// 	background-position: 0 -30px;
-				// 	width: 500px;
-				// 	height: 100px;
-				// 	position: absolute;
-				// 	left: 0;
-				// 	top: -45;
-				// }
 			}
 			h3 {
 				font-size: 20px;
@@ -998,6 +943,7 @@ footer {
 				}
 			}
 		}
+
 		// Subscribe
 		.subscribe-connect {
 			.subscribe form {
@@ -1029,6 +975,7 @@ footer {
 					}
 				}
 			}
+
 			// Connect
 			.connect {
 				.title {
@@ -1054,6 +1001,7 @@ footer {
 			}
 		}
 	}
+
 	// Copyright
 	.copyright {
 		text-align: center;

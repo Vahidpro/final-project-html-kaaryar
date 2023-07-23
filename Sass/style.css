@@ -424,9 +424,6 @@ nav input:checked + ul {
   letter-spacing: 1px;
   padding: 0 5px;
 }
-.courses-section .container .card .info .user {
-  position: relative;
-}
 .courses-section .container .card > :last-child {
   flex-direction: column;
 }
@@ -519,7 +516,7 @@ nav input:checked + ul {
 }
 
 .quote-form-section {
-  background: linear-gradient(-110deg, rgba(13, 17, 40, 0.7803921569) 0%, rgba(253, 97, 0, 0.6862745098) 100%), url(../assets/images/bg_5.jpg) center center/cover no-repeat;
+  background: linear-gradient(-110deg, rgba(13, 17, 40, 0.7803921569) 0%, rgba(253, 97, 0, 0.6862745098) 100%), url(../assets/images/bg_5.jpg);
   background-attachment: fixed;
   background-position-x: 30%;
 }
