@@ -55,6 +55,14 @@ a {
   color: inherit;
 }
 
+svg {
+  width: 25px;
+  height: 25px;
+}
+svg path {
+  fill: #005fcc;
+}
+
 button,
 .btn {
   background-color: #005fcc;
@@ -212,9 +220,6 @@ nav form button {
 }
 nav form button:hover {
   border: none;
-}
-nav form box-icon {
-  transform: translateY(3px);
 }
 nav .toggle-menu {
   display: none;
@@ -616,6 +621,12 @@ nav input:checked + ul {
   flex-wrap: wrap;
   row-gap: 20px;
 }
+.recent-blog .post-container .post .down .container svg g :nth-child(1) {
+  fill: transparent;
+}
+.recent-blog .post-container .post .down .container svg g :nth-child(2) {
+  fill: white;
+}
 .recent-blog .post-container .post .down .container h3 {
   justify-self: flex-start;
 }
@@ -625,7 +636,10 @@ nav input:checked + ul {
   -moz-column-gap: 5px;
        column-gap: 5px;
 }
-.recent-blog .post-container .post .down .container .btn:hover svg :nth-child(2) {
+.recent-blog .post-container .post .down .container .btn:hover svg g :nth-child(1) {
+  fill: transparent;
+}
+.recent-blog .post-container .post .down .container .btn:hover svg g :nth-child(2) {
   fill: #005fcc;
 }
 .recent-blog .post-container .post .down .container .info {

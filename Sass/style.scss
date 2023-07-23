@@ -98,6 +98,14 @@ a {
 	color: inherit;
 }
 
+svg {
+	width: 25px;
+	height: 25px;
+	path {
+		fill: $primary-color;
+	}
+}
+
 button,
 .btn {
 	background-color: $primary-color;
@@ -249,9 +257,6 @@ nav {
 		}
 		button:hover {
 			border: none;
-		}
-		box-icon {
-			transform: translateY(3px);
 		}
 	}
 
@@ -693,6 +698,13 @@ nav {
 					justify-content: space-between;
 					flex-wrap: wrap;
 					row-gap: 20px;
+
+					svg g :nth-child(1) {
+						fill: transparent;
+					}
+					svg g :nth-child(2) {
+						fill: white;
+					}
 					h3 {
 						justify-self: flex-start;
 					}
@@ -703,7 +715,10 @@ nav {
 						column-gap: 5px;
 
 						&:hover {
-							svg :nth-child(2) {
+							svg g :nth-child(1) {
+								fill: transparent;
+							}
+							svg g :nth-child(2) {
 								fill: $primary-color;
 							}
 						}
