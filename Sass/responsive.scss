@@ -1,3 +1,4 @@
+// Small Devices
 @media screen and (max-width: 320px) {
 	nav {
 		.burger {
@@ -58,6 +59,8 @@
 		}
 	}
 }
+
+//Phone, Tablets
 @media screen and (max-width: 769px) {
 	.wrapper {
 		margin: 0 auto;
@@ -121,7 +124,7 @@
 			}
 		}
 	}
-	.hero-section .wrapper {
+	.hero-section .slogan {
 		align-items: center;
 		text-align: center;
 
@@ -397,7 +400,7 @@
 }
 
 @media screen and (min-width: 1201px) {
-	.hero-section .wrapper {
+	.hero-section .slogan {
 		P,
 		h1 {
 			max-width: 50%;

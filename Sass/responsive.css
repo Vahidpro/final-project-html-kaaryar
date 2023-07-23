@@ -97,15 +97,15 @@
   nav ul li a {
     font-size: 20px;
   }
-  .hero-section .wrapper {
+  .hero-section .slogan {
     align-items: center;
     text-align: center;
   }
-  .hero-section .wrapper h1 {
+  .hero-section .slogan h1 {
     font-size: 40px;
   }
-  .hero-section .wrapper P,
-  .hero-section .wrapper h1 {
+  .hero-section .slogan P,
+  .hero-section .slogan h1 {
     max-width: 100%;
   }
   .features-section {
@@ -313,8 +313,8 @@
   }
 }
 @media screen and (min-width: 1201px) {
-  .hero-section .wrapper P,
-  .hero-section .wrapper h1 {
+  .hero-section .slogan P,
+  .hero-section .slogan h1 {
     max-width: 50%;
   }
 }/*# sourceMappingURL=responsive.css.map */

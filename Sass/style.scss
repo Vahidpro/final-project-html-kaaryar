@@ -31,6 +31,7 @@ $font-family-poppins: "Poppins", sans-serif;
 	scroll-behavior: smooth;
 }
 
+// font-family and line-height
 p,
 h1,
 h2,
@@ -53,6 +54,7 @@ textarea,
 header:not(ul) {
 	z-index: 100;
 }
+
 // Mixins
 @mixin placeholder-style {
 	&::placeholder,
@@ -74,6 +76,7 @@ header:not(ul) {
 	background: center center/ cover no-repeat;
 }
 
+// Pre-defined Classes and styles
 .wrapper {
 	margin: 0 auto;
 	padding: 0 15px;
@@ -119,7 +122,7 @@ button:hover,
 	padding: 110px 0;
 }
 
-// Ttile for sections info
+// Top ttile style for some sections
 .title {
 	flex-direction: column;
 	padding-bottom: 40px;
@@ -141,6 +144,7 @@ button:hover,
 	}
 }
 
+// Contact info at top
 .top-info .container {
 	z-index: 20;
 	position: relative;
@@ -196,6 +200,7 @@ button:hover,
 	}
 }
 
+// Navigation Menu, both for mobile and desktop
 nav {
 	background-color: $primary-dark-color;
 	height: 70px;
@@ -272,13 +277,14 @@ nav {
 	}
 }
 
+// Slogan
 .hero-section {
 	background: linear-gradient(45deg, $gradient-2 0%, $gradient-1 100%),
 		0% 0% / cover no-repeat url(../assets/images/bg_1.jpg);
 	// height: 600px;
 	color: $light-color;
 
-	.wrapper {
+	.slogan {
 		flex-direction: column;
 		align-items: flex-start;
 		row-gap: 32px;
@@ -296,6 +302,7 @@ nav {
 	}
 }
 
+// Features section
 .features-section {
 	color: $light-color;
 	> div {
@@ -331,6 +338,7 @@ nav {
 	}
 }
 
+// Offer section
 .offer-section {
 	justify-content: space-between;
 	.left {
@@ -396,6 +404,7 @@ nav {
 	}
 }
 
+// About section
 .about-section {
 	.wrapper {
 		padding-top: 100px;
@@ -459,6 +468,7 @@ nav {
 	}
 }
 
+// Courses section
 .courses-section {
 	.container {
 		padding: 0 15px;
@@ -529,6 +539,7 @@ nav {
 	}
 }
 
+// Teachers Section
 .teachers-section {
 	background-color: $background-2;
 	margin: 0 10px;
@@ -590,7 +601,6 @@ nav {
 					.img {
 						transform: scale(103%) translateY(-4px);
 					}
-
 					// .img::after {
 					// 	content: "";
 					// 	background: url(../assets/icons/calendar-bold.svg) center
@@ -613,6 +623,8 @@ nav {
 		}
 	}
 }
+
+// Quote Form Section
 .quote-form-section {
 	background: linear-gradient(-110deg, $gradient-3 0%, $gradient-70 100%),
 		url(../assets/images/bg_5.jpg) center center/ cover no-repeat;
@@ -677,6 +689,7 @@ nav {
 	}
 }
 
+// Recent Blog Section
 .recent-blog {
 	background-color: $background-2;
 	.post-container {
@@ -811,7 +824,6 @@ nav {
 			flex-direction: column;
 			margin-left: 40px;
 			// position: relative;
-
 			// .quote-icon {
 			// 	background: url(../assets/icons/quote-left.svg) no-repeat;
 			// 	background-size: 100px;
@@ -893,12 +905,15 @@ nav {
 		}
 	}
 }
+
 footer {
 	background-color: $dark-footer;
 	color: $primary-dark-text-color;
 	.wrapper {
 		padding-top: 80px;
 		flex-wrap: wrap;
+
+		// Question
 		.question {
 			.container {
 				flex-direction: column;
@@ -983,7 +998,7 @@ footer {
 				}
 			}
 		}
-
+		// Subscribe
 		.subscribe-connect {
 			.subscribe form {
 				input,
@@ -1014,7 +1029,7 @@ footer {
 					}
 				}
 			}
-
+			// Connect
 			.connect {
 				.title {
 					padding-top: 50px;
@@ -1039,7 +1054,7 @@ footer {
 			}
 		}
 	}
-	// Copyright info
+	// Copyright
 	.copyright {
 		text-align: center;
 		padding: 80px 0;
