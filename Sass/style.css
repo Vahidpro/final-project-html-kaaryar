@@ -177,7 +177,7 @@ nav ul li a {
   padding: 0 18px;
   font-size: 15px;
 }
-nav form {
+nav .search {
   border-radius: 50px;
   background-color: #0d1128;
   border: 1px solid #2f334d;
@@ -187,38 +187,38 @@ nav form {
   -moz-column-gap: 15px;
        column-gap: 15px;
 }
-nav form input {
+nav .search input {
   border: none;
   background-color: #0d1128;
   margin-left: 15px;
   font-weight: 500;
   font-size: 17px;
 }
-nav form input::-moz-placeholder {
-  color: #eaeaeb;
+nav .search input::-moz-placeholder {
+  color: #b3b3b3;
 }
-nav form input::placeholder, nav form input:focus {
-  color: #eaeaeb;
+nav .search input::placeholder, nav .search input:focus {
+  color: #b3b3b3;
 }
-nav form input:focus {
+nav .search input:focus {
   outline: none;
 }
-nav form input:not(:focus) {
-  color: #eaeaeb;
+nav .search input:not(:focus) {
+  color: #b3b3b3;
 }
-nav form input:focus::-moz-placeholder {
+nav .search input:focus::-moz-placeholder {
   transform: none;
 }
-nav form input:focus::placeholder {
+nav .search input:focus::placeholder {
   transform: none;
 }
-nav form button {
+nav .search button {
   background-color: #0d1128;
   border: none;
   margin-right: 20px;
   padding: 0;
 }
-nav form button:hover {
+nav .search button:hover {
   border: none;
 }
 nav .toggle-menu {
@@ -319,7 +319,7 @@ nav input:checked + ul {
 .offer-section .left .offers-container .img {
   height: 80px;
   width: 80px;
-  padding: 15px;
+  padding: 20px;
   background-color: #005fcc;
   border-radius: 50px;
   margin-right: 20px;
@@ -381,10 +381,8 @@ nav input:checked + ul {
   width: 80px;
   height: 80px;
   justify-content: center;
+  align-items: center;
   border-radius: 50%;
-}
-.about-section .top .img-container .img a img {
-  width: 20px;
 }
 .about-section .top .right {
   width: 50%;
@@ -859,16 +857,16 @@ footer .wrapper .subscribe-connect .subscribe form input {
   font-size: 16px;
 }
 footer .wrapper .subscribe-connect .subscribe form input::-moz-placeholder {
-  color: #eaeaeb;
+  color: #b3b3b3;
 }
 footer .wrapper .subscribe-connect .subscribe form input::placeholder, footer .wrapper .subscribe-connect .subscribe form input:focus {
-  color: #eaeaeb;
+  color: #b3b3b3;
 }
 footer .wrapper .subscribe-connect .subscribe form input:focus {
   outline: none;
 }
 footer .wrapper .subscribe-connect .subscribe form input:not(:focus) {
-  color: #eaeaeb;
+  color: #b3b3b3;
 }
 footer .wrapper .subscribe-connect .subscribe form input:focus::-moz-placeholder {
   transform: none;

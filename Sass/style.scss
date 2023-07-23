@@ -59,13 +59,13 @@ header:not(ul) {
 @mixin placeholder-style {
 	&::placeholder,
 	&:focus {
-		color: $primary-dark-text-color;
+		color: $gray-badge;
 	}
 	&:focus {
 		outline: none;
 	}
 	&:not(:focus) {
-		color: $primary-dark-text-color;
+		color: $gray-badge;
 	}
 	&:focus::placeholder {
 		transform: none;
@@ -232,7 +232,7 @@ nav {
 			}
 		}
 	}
-	form {
+	.search {
 		border-radius: 50px;
 		background-color: $primary-dark-color;
 		border: 1px solid $primary-dark-300;
@@ -368,7 +368,7 @@ nav {
 			.img {
 				height: 80px;
 				width: 80px;
-				padding: 15px;
+				padding: 20px;
 				background-color: $primary-color;
 				border-radius: 50px;
 				margin-right: 20px;
@@ -435,10 +435,8 @@ nav {
 					width: 80px;
 					height: 80px;
 					justify-content: center;
+					align-items: center;
 					border-radius: 50%;
-					img {
-						width: 20px;
-					}
 				}
 			}
 		}
