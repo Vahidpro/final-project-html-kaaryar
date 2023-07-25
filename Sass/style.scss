@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-$primary-color: #005fcc;
+$primary-color: #0066ff;
 $primary-dark-color: #0d1128;
 $primary-text-color: #ffdfcc;
 $primary-dark-text-color: #eaeaeb;
@@ -101,7 +101,8 @@ a {
 svg {
 	width: 25px;
 	height: 25px;
-	path {
+	path,
+	circle {
 		fill: $primary-color;
 	}
 }
@@ -483,6 +484,7 @@ nav {
 				> div {
 					margin: 20px 0;
 					display: flex;
+					align-items: center;
 					> span {
 						font-size: 12px;
 						color: $light-gray;
@@ -490,6 +492,14 @@ nav {
 						letter-spacing: 1px;
 						padding: 0 5px;
 					}
+
+					> svg {
+						width: 20px;
+					}
+				}
+
+				.user svg :nth-child(3) {
+					fill: none;
 				}
 			}
 			> :last-child {
@@ -871,6 +881,16 @@ footer {
 		padding-top: 80px;
 		flex-wrap: wrap;
 
+		> div {
+			width: 25%;
+			padding: 0 14px;
+			// Title
+			h2 {
+				font-size: 21px;
+				font-weight: 500;
+				margin-bottom: 35px;
+			}
+		}
 		// Question
 		.question {
 			.container {
@@ -884,16 +904,11 @@ footer {
 					font-size: 14px;
 				}
 			}
-		}
-		> div {
-			width: 25%;
-			padding: 0 14px;
-			h2 {
-				font-size: 22px;
-				font-weight: 500;
-				margin-bottom: 35px;
+			.address {
+				color: $gray-badge;
 			}
 		}
+
 		.links .container {
 			li a {
 				display: flex;
