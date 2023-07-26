@@ -5,7 +5,7 @@
 $primary-color: #fd5f00;
 $primary-dark-color: #0d1128;
 $primary-text-color: #ffdfcc;
-$primary-dark-text-color: #eaeaeb;
+$primary-light-text-color: #eaeaeb;
 $primary-dark-300: #2f334d;
 $light-color: #ffffff;
 $dark-color: #323232;
@@ -81,8 +81,8 @@ header:not(ul) {
 // Pre-defined Classes and styles
 .wrapper {
 	margin: 0 auto;
-	padding: 0 15px;
-	max-width: 1135px;
+	padding: 0 16px;
+	max-width: 1140px;
 }
 .d-flex {
 	display: flex;
@@ -336,7 +336,7 @@ nav {
 	.primary-dark {
 		background-color: $primary-dark-color;
 		p {
-			color: $primary-dark-text-color;
+			color: $primary-light-text-color;
 		}
 	}
 }
@@ -647,13 +647,13 @@ nav {
 
 					&:focus {
 						outline: none;
-						color: $primary-dark-text-color;
+						color: $primary-light-text-color;
 						font-size: 16px;
 					}
 				}
 				::placeholder,
 				select {
-					color: $primary-dark-text-color;
+					color: $primary-light-text-color;
 					font-size: 16px;
 				}
 
@@ -796,7 +796,7 @@ nav {
 	padding: 110px 0;
 	.container {
 		max-width: 580px;
-		margin: 50px auto 80px auto;
+		margin: 50px 20px 80px 20px;
 		align-items: center;
 
 		> :first-child {
@@ -873,7 +873,7 @@ nav {
 
 footer {
 	background-color: $dark-footer;
-	color: $primary-dark-text-color;
+	color: $primary-light-text-color;
 	.wrapper {
 		padding-top: 80px;
 		flex-wrap: wrap;

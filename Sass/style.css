@@ -33,8 +33,8 @@ header:not(ul) {
 
 .wrapper {
   margin: 0 auto;
-  padding: 0 15px;
-  max-width: 1135px;
+  padding: 0 16px;
+  max-width: 1140px;
 }
 
 .d-flex {
@@ -706,7 +706,7 @@ nav input:checked + ul {
 }
 .comments-section .container {
   max-width: 580px;
-  margin: 50px auto 80px auto;
+  margin: 50px 20px 80px 20px;
   align-items: center;
 }
 .comments-section .container > :first-child {
