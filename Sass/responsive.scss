@@ -213,6 +213,7 @@
 		background-position-x: 40%;
 		.wrapper {
 			min-width: unset;
+			padding: 0 30px;
 			.right {
 				width: 100%;
 				margin: 80px 0;
@@ -247,7 +248,7 @@
 
 	footer {
 		.copyright {
-			padding: 20px 60px;
+			padding: 20px 16px;
 			font-size: 14px;
 		}
 		.wrapper > div {

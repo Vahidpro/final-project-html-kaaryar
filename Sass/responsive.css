@@ -172,6 +172,7 @@
   }
   .quote-form-section .wrapper {
     min-width: unset;
+    padding: 0 30px;
   }
   .quote-form-section .wrapper .right {
     width: 100%;
@@ -199,7 +200,7 @@
     flex-wrap: wrap;
   }
   footer .copyright {
-    padding: 20px 60px;
+    padding: 20px 16px;
     font-size: 14px;
   }
   footer .wrapper > div {

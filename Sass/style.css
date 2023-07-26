@@ -921,4 +921,12 @@ footer .wrapper .subscribe-connect .connect > div a:first-child {
 footer .copyright {
   text-align: center;
   padding: 80px 0;
+}
+footer .copyright svg {
+  transform: translateY(24%);
+  width: 20px;
+  height: 20px;
+}
+footer .copyright svg path {
+  fill: rgb(233, 0, 0);
 }/*# sourceMappingURL=style.css.map */
