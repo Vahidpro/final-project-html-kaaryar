@@ -2,7 +2,7 @@
 
 // Original Color: #fd5f00
 
-$primary-color: #fd5f00;
+$primary-color: #0076fd;
 $primary-dark-color: #0d1128;
 $primary-text-color: #ffdfcc;
 $primary-light-text-color: #eaeaeb;
@@ -257,6 +257,9 @@ nav {
 			border: none;
 			margin-right: 20px;
 			padding: 0;
+			img {
+				width: 25px;
+			}
 		}
 		button:hover {
 			border: none;
@@ -694,9 +697,11 @@ nav {
 				padding: 25px;
 				background-color: $light-color;
 				h4 {
+					a {
+						transition: all 0.3s ease-out;
+					}
 					:hover {
 						color: $primary-color;
-						transition: all 0.3s ease-out;
 					}
 				}
 				.container {
@@ -1035,9 +1040,6 @@ footer {
 			transform: translateY(24%);
 			width: 20px;
 			height: 20px;
-			path {
-				fill: rgb(233, 0, 0);
-			}
 		}
 	}
 }

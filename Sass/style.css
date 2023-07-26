@@ -61,19 +61,19 @@ svg {
 }
 svg path,
 svg circle {
-  fill: #fd5f00;
+  fill: #0076fd;
 }
 
 button,
 .btn {
-  background-color: #fd5f00;
+  background-color: #0076fd;
   color: #ffffff;
   padding: 16px 20px;
   cursor: pointer;
   border-radius: 50px;
   font-size: 16px;
   transition: 0.2s;
-  border: 1px solid #fd5f00;
+  border: 1px solid #0076fd;
   text-align: center;
   margin: auto 0;
 }
@@ -81,8 +81,8 @@ button,
 button:hover,
 .btn:hover {
   background-color: transparent;
-  color: #fd5f00;
-  border: 1px solid #fd5f00;
+  color: #0076fd;
+  border: 1px solid #0076fd;
 }
 
 .section-padding {
@@ -170,7 +170,7 @@ nav ul {
   flex-grow: 1;
 }
 nav ul li a[href="#home"] {
-  color: #fd5f00;
+  color: #0076fd;
 }
 nav ul li a {
   text-decoration: none;
@@ -219,6 +219,9 @@ nav .search button {
   margin-right: 20px;
   padding: 0;
 }
+nav .search button img {
+  width: 25px;
+}
 nav .search button:hover {
   border: none;
 }
@@ -241,7 +244,7 @@ nav input:checked + ul {
 }
 
 .hero-section {
-  background: linear-gradient(45deg, rgba(13, 17, 40, 0.7) 0%, rgba(253, 95, 0, 0.5) 100%), 0% 0%/cover no-repeat url(../assets/images/bg_1.jpg);
+  background: linear-gradient(45deg, rgba(13, 17, 40, 0.7) 0%, rgba(0, 118, 253, 0.5) 100%), 0% 0%/cover no-repeat url(../assets/images/bg_1.jpg);
   color: #ffffff;
 }
 .hero-section .slogan {
@@ -281,7 +284,7 @@ nav input:checked + ul {
   height: 50px;
 }
 .features-section .primary-light {
-  background-color: #fd5f00;
+  background-color: #0076fd;
 }
 .features-section .primary-light p {
   color: #ffdfcc;
@@ -321,7 +324,7 @@ nav input:checked + ul {
   height: 80px;
   width: 80px;
   padding: 20px;
-  background-color: #fd5f00;
+  background-color: #0076fd;
   border-radius: 50px;
   margin-right: 20px;
 }
@@ -351,7 +354,7 @@ nav input:checked + ul {
 }
 
 .about-section {
-  background: linear-gradient(45deg, rgba(13, 17, 40, 0.7) 0%, rgba(253, 95, 0, 0.7) 100%), url(../assets/images/image_4.jpg) center center/cover no-repeat;
+  background: linear-gradient(45deg, rgba(13, 17, 40, 0.7) 0%, rgba(0, 118, 253, 0.7) 100%), url(../assets/images/image_4.jpg) center center/cover no-repeat;
   background-attachment: fixed;
   color: #ffffff;
 }
@@ -493,7 +496,7 @@ nav input:checked + ul {
   transition: 0.3s all ease;
 }
 .teachers-section .card-container .card .social-container > a iconify-icon {
-  color: #fd5f00;
+  color: #0076fd;
   transform: scale(1.3);
 }
 .teachers-section .card-container .card .name {
@@ -507,7 +510,7 @@ nav input:checked + ul {
   letter-spacing: 2px;
   font-size: 13px;
   font-weight: 600;
-  color: #fd5f00;
+  color: #0076fd;
 }
 .teachers-section .card-container .card p {
   color: #666666;
@@ -521,11 +524,11 @@ nav input:checked + ul {
   opacity: 1;
 }
 .teachers-section .card-container .card:hover.card .name {
-  color: #fd5f00;
+  color: #0076fd;
 }
 
 .quote-form-section {
-  background: linear-gradient(-110deg, rgba(13, 17, 40, 0.7) 0%, rgba(253, 95, 0, 0.7) 100%), url(../assets/images/bg_5.jpg);
+  background: linear-gradient(-110deg, rgba(13, 17, 40, 0.7) 0%, rgba(0, 118, 253, 0.7) 100%), url(../assets/images/bg_5.jpg);
   background-attachment: fixed;
   background-position-x: 30%;
 }
@@ -587,7 +590,7 @@ nav input:checked + ul {
   resize: none;
 }
 .quote-form-section .wrapper .right form option {
-  color: #fd5f00;
+  color: #0076fd;
 }
 
 .recent-blog {
@@ -615,9 +618,11 @@ nav input:checked + ul {
   padding: 25px;
   background-color: #ffffff;
 }
-.recent-blog .post-container .post .down h4 :hover {
-  color: #fd5f00;
+.recent-blog .post-container .post .down h4 a {
   transition: all 0.3s ease-out;
+}
+.recent-blog .post-container .post .down h4 :hover {
+  color: #0076fd;
 }
 .recent-blog .post-container .post .down .container {
   display: flex;
@@ -644,7 +649,7 @@ nav input:checked + ul {
   fill: transparent;
 }
 .recent-blog .post-container .post .down .container .btn:hover svg g :nth-child(2) {
-  fill: #fd5f00;
+  fill: #0076fd;
 }
 .recent-blog .post-container .post .down .container .info {
   display: flex;
@@ -661,7 +666,7 @@ nav input:checked + ul {
 .recent-blog .post-container .post .down .container .info h3 {
   font-size: 16px;
   font-weight: 400;
-  color: #fd5f00;
+  color: #0076fd;
 }
 .recent-blog .post-container .post .down .container .info > :last-child {
   color: #b3b3b3;
@@ -738,7 +743,7 @@ nav input:checked + ul {
 .comments-section .container div h4 {
   font-weight: 400;
   font-size: 14;
-  color: #fd5f00;
+  color: #0076fd;
 }
 
 .gallery-section .img-container > div {
@@ -758,7 +763,7 @@ nav input:checked + ul {
   top: 50%;
   transform: translate(50%, -50%);
   padding: 10px;
-  background-color: #fd5f00;
+  background-color: #0076fd;
   border-radius: 5px;
   opacity: 0;
   transition: all 0.3s ease-out;
@@ -841,7 +846,7 @@ footer .wrapper .blog .post-container .post .content h3 {
   transition: all 0.5s;
 }
 footer .wrapper .blog .post-container .post .content h3:hover {
-  color: #fd5f00;
+  color: #0076fd;
 }
 footer .wrapper .blog .post-container .post .content span {
   color: #b3b3b3;
@@ -897,7 +902,7 @@ footer .wrapper .subscribe-connect .subscribe form button {
   background-color: #5d50c6;
 }
 footer .wrapper .subscribe-connect .subscribe form button:hover {
-  background-color: #fd5f00;
+  background-color: #0076fd;
   color: #ffffff;
 }
 footer .wrapper .subscribe-connect .connect .title {
@@ -926,7 +931,4 @@ footer .copyright svg {
   transform: translateY(24%);
   width: 20px;
   height: 20px;
-}
-footer .copyright svg path {
-  fill: rgb(233, 0, 0);
 }/*# sourceMappingURL=style.css.map */
