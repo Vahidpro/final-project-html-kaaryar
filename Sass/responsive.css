@@ -113,6 +113,10 @@
     padding-top: 60px;
     padding-bottom: 120px;
   }
+  .offer-section {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
   .offer-section .right {
     display: none;
   }
@@ -218,7 +222,7 @@
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .wrapper {
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 16px;
     max-width: 715px;
   }
   .top-info .container {
@@ -310,7 +314,7 @@
   .wrapper {
     margin: 0 auto;
     padding: 0 15px;
-    max-width: 915px;
+    max-width: 930px;
   }
   .top-info .container .call {
     padding-right: 30px;

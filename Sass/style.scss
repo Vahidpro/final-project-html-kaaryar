@@ -32,27 +32,9 @@ $font-family-poppins: "Poppins", sans-serif;
 	box-sizing: border-box;
 }
 
-// font-family and line-height
-p,
-h1,
-h2,
-h3,
-h4,
-h4,
-h6,
-span,
-input,
-select,
-button,
-a,
-textarea,
-::after,
-::before {
+html {
 	font-family: Poppins, sans-serif;
 	line-height: 1.8;
-}
-
-html {
 	scroll-behavior: smooth;
 }
 
@@ -99,6 +81,11 @@ a {
 	color: inherit;
 }
 
+input,
+select {
+	font-family: Poppins, sans-serif;
+}
+
 svg {
 	width: 25px;
 	height: 25px;
@@ -120,6 +107,7 @@ button,
 	border: 1px solid $primary-color;
 	text-align: center;
 	margin: auto 0;
+	font-family: Poppins, sans-serif;
 }
 button:hover,
 .btn:hover {
@@ -188,7 +176,7 @@ button:hover,
 	}
 
 	div p {
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: 700;
 	}
 	div:not(.logo, .apply) > :last-child {
@@ -218,7 +206,7 @@ nav {
 	height: 70px;
 	justify-content: space-between;
 	margin: 0 auto;
-	max-width: 1120px;
+	max-width: 1150px;
 	column-gap: 10px;
 	ul {
 		display: flex;
@@ -927,7 +915,7 @@ footer {
 			.address {
 				color: $gray-badge;
 			}
-			.emai-address {
+			.email-address {
 				word-break: break-word;
 			}
 		}

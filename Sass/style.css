@@ -7,26 +7,9 @@
   box-sizing: border-box;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h4,
-h6,
-span,
-input,
-select,
-button,
-a,
-textarea,
-::after,
-::before {
+html {
   font-family: Poppins, sans-serif;
   line-height: 1.8;
-}
-
-html {
   scroll-behavior: smooth;
 }
 
@@ -54,6 +37,11 @@ a {
   color: inherit;
 }
 
+input,
+select {
+  font-family: Poppins, sans-serif;
+}
+
 svg {
   width: 25px;
   height: 25px;
@@ -75,6 +63,7 @@ button,
   border: 1px solid #0076fd;
   text-align: center;
   margin: auto 0;
+  font-family: Poppins, sans-serif;
 }
 
 button:hover,
@@ -137,7 +126,7 @@ button:hover,
        column-gap: 30px;
 }
 .top-info .container div p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
 }
 .top-info .container div:not(.logo, .apply) > :last-child {
@@ -162,7 +151,7 @@ nav {
   height: 70px;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 1120px;
+  max-width: 1150px;
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
@@ -826,7 +815,7 @@ footer .wrapper .question .container p {
 footer .wrapper .question .address {
   color: #b3b3b3;
 }
-footer .wrapper .question .emai-address {
+footer .wrapper .question .email-address {
   word-break: break-word;
 }
 footer .wrapper .links .container li a {
