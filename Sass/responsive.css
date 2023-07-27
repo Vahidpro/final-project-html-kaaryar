@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   nav .burger {
     flex-grow: 1;
     padding-left: 0;
@@ -18,23 +18,20 @@
     text-align: center;
   }
   .offer-section .left .offers-container > div .img {
+    margin-bottom: 16px;
     margin-right: 0;
   }
   .offer-section .left .offers-container > div .img img {
     height: 40px;
   }
-  .recent-blog .post-container .post .down .container {
-    justify-content: center;
-  }
-  .comments-section .container {
+  .comments-section .container .comment {
     flex-direction: column;
-    padding: 0 15px;
   }
-  .comments-section .container > div {
+  .comments-section .container .comment > div {
     margin-left: 0;
   }
-  .comments-section .container > div h3,
-  .comments-section .container > div h4 {
+  .comments-section .container .comment > div h3,
+  .comments-section .container .comment > div h4 {
     text-align: center;
   }
   footer .copyright {
@@ -52,7 +49,7 @@
 @media screen and (max-width: 769px) {
   .wrapper {
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 24px;
     max-width: 565px;
   }
   .title h3 {
@@ -121,6 +118,10 @@
   }
   .offer-section .left {
     width: 100%;
+    padding: 0;
+  }
+  .offer-section .left .offers-container {
+    padding: 0;
   }
   .offer-section .left .offers-container > div {
     width: 100%;
@@ -192,8 +193,10 @@
     width: 100%;
     margin: 20px 0;
   }
-  .comments-section .container div {
-    flex-direction: column;
+  .comments-section .container .comment {
+    min-width: 100%;
+  }
+  .comments-section .container .comment > div {
     margin-left: 20px;
   }
   .gallery-section .img-container {
@@ -292,6 +295,9 @@
   }
   .comments-section .container {
     max-width: 95%;
+  }
+  .comments-section .container .comment {
+    min-width: 100%;
   }
   footer .wrapper {
     min-width: 720px;

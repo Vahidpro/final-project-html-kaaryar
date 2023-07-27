@@ -181,7 +181,9 @@ button:hover,
 			padding-left: 15px;
 		}
 	}
-
+	span {
+		word-break: break-word;
+	}
 	> div {
 		column-gap: 30px;
 	}
@@ -804,10 +806,13 @@ nav {
 		margin: 0 auto;
 		width: 85%;
 		justify-content: center;
+		column-gap: 10px;
+		cursor: default;
 
 		.left,
 		.right {
 			opacity: 0.1;
+			transform: translateY(30px);
 		}
 		.comment {
 			min-width: 580px;
@@ -922,6 +927,9 @@ footer {
 			}
 			.address {
 				color: $gray-badge;
+			}
+			.emai-address {
+				word-break: break-word;
 			}
 		}
 

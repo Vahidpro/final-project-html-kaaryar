@@ -130,6 +130,9 @@ button:hover,
 .top-info .container .contact-info p {
   padding-left: 15px;
 }
+.top-info .container span {
+  word-break: break-word;
+}
 .top-info .container > div {
   -moz-column-gap: 30px;
        column-gap: 30px;
@@ -714,10 +717,14 @@ nav input:checked + ul {
   margin: 0 auto;
   width: 85%;
   justify-content: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  cursor: default;
 }
 .comments-section .container .left,
 .comments-section .container .right {
   opacity: 0.1;
+  transform: translateY(30px);
 }
 .comments-section .container .comment {
   min-width: 580px;
@@ -819,6 +826,9 @@ footer .wrapper .question .container p {
 }
 footer .wrapper .question .address {
   color: #b3b3b3;
+}
+footer .wrapper .question .emai-address {
+  word-break: break-word;
 }
 footer .wrapper .links .container li a {
   display: flex;
