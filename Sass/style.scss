@@ -800,41 +800,52 @@ nav {
 .comments-section {
 	padding: 110px 0;
 	.container {
-		max-width: 580px;
-		margin: 50px 20px 80px 20px;
-		align-items: center;
+		overflow: hidden;
+		margin: 0 auto;
+		width: 85%;
+		justify-content: center;
 
-		> :first-child {
-			margin-top: 1%;
+		.left,
+		.right {
+			opacity: 0.1;
 		}
-		img {
-			width: 120px;
-			height: 120px;
-			border-radius: 50%;
-		}
-		div {
-			flex-direction: column;
-			margin-left: 40px;
-
-			p {
-				background: url(../assets/icons/quote-left.svg) no-repeat;
-				background-size: 100px;
-				background-position: 0 50%;
-				font-size: 18px;
-				color: $light-gray;
-				line-height: 30px;
-				margin-bottom: 20px;
-				padding-top: 80px;
+		.comment {
+			min-width: 580px;
+			margin: 50px auto 80px auto;
+			align-items: center;
+			justify-content: space-between;
+			> :first-child {
+				margin-top: 1%;
 			}
-			h3 {
-				font-size: 20px;
-				font-weight: 400;
+			img {
+				width: 120px;
+				height: 120px;
+				border-radius: 50%;
 			}
+			> div {
+				flex-direction: column;
+				margin-left: 40px;
 
-			h4 {
-				font-weight: 400;
-				font-size: 14;
-				color: $primary-color;
+				p {
+					background: url(../assets/icons/quote-left.svg) no-repeat;
+					background-size: 100px;
+					background-position: 0 50%;
+					font-size: 18px;
+					color: $light-gray;
+					line-height: 30px;
+					margin-bottom: 20px;
+					padding-top: 80px;
+				}
+				h3 {
+					font-size: 20px;
+					font-weight: 400;
+				}
+
+				h4 {
+					font-weight: 400;
+					font-size: 14;
+					color: $primary-color;
+				}
 			}
 		}
 	}
@@ -1013,7 +1024,7 @@ footer {
 			.connect {
 				.title {
 					padding-top: 50px;
-					margin-bottom: 16px;
+					padding-bottom: 0;
 				}
 				> div a {
 					display: flex;

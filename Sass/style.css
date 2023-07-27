@@ -710,23 +710,34 @@ nav input:checked + ul {
   padding: 110px 0;
 }
 .comments-section .container {
-  max-width: 580px;
-  margin: 50px 20px 80px 20px;
-  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 85%;
+  justify-content: center;
 }
-.comments-section .container > :first-child {
+.comments-section .container .left,
+.comments-section .container .right {
+  opacity: 0.1;
+}
+.comments-section .container .comment {
+  min-width: 580px;
+  margin: 50px auto 80px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.comments-section .container .comment > :first-child {
   margin-top: 1%;
 }
-.comments-section .container img {
+.comments-section .container .comment img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
 }
-.comments-section .container div {
+.comments-section .container .comment > div {
   flex-direction: column;
   margin-left: 40px;
 }
-.comments-section .container div p {
+.comments-section .container .comment > div p {
   background: url(../assets/icons/quote-left.svg) no-repeat;
   background-size: 100px;
   background-position: 0 50%;
@@ -736,11 +747,11 @@ nav input:checked + ul {
   margin-bottom: 20px;
   padding-top: 80px;
 }
-.comments-section .container div h3 {
+.comments-section .container .comment > div h3 {
   font-size: 20px;
   font-weight: 400;
 }
-.comments-section .container div h4 {
+.comments-section .container .comment > div h4 {
   font-weight: 400;
   font-size: 14;
   color: #0076fd;
@@ -910,7 +921,7 @@ footer .wrapper .subscribe-connect .subscribe form button:hover {
 }
 footer .wrapper .subscribe-connect .connect .title {
   padding-top: 50px;
-  margin-bottom: 16px;
+  padding-bottom: 0;
 }
 footer .wrapper .subscribe-connect .connect > div a {
   display: flex;
