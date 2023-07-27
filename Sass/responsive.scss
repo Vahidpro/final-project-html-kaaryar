@@ -21,7 +21,7 @@
 				.img {
 					margin-right: 0;
 					img {
-						height: 50px;
+						height: 40px;
 					}
 				}
 			}
@@ -251,9 +251,13 @@
 			padding: 20px 16px;
 			font-size: 14px;
 		}
-		.wrapper > div {
+		.wrapper {
 			width: 100%;
-			padding: 24px 14px;
+			min-width: unset;
+			> div {
+				width: 100%;
+				padding: 24px 14px;
+			}
 		}
 	}
 }
@@ -362,8 +366,11 @@
 		max-width: 95%;
 	}
 
-	footer .wrapper > div {
-		width: 50%;
+	footer .wrapper {
+		min-width: 720px;
+		> div {
+			width: 50%;
+		}
 	}
 }
 

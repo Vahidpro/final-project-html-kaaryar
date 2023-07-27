@@ -21,7 +21,7 @@
     margin-right: 0;
   }
   .offer-section .left .offers-container > div .img img {
-    height: 50px;
+    height: 40px;
   }
   .recent-blog .post-container .post .down .container {
     justify-content: center;
@@ -203,6 +203,10 @@
     padding: 20px 16px;
     font-size: 14px;
   }
+  footer .wrapper {
+    width: 100%;
+    min-width: unset;
+  }
   footer .wrapper > div {
     width: 100%;
     padding: 24px 14px;
@@ -288,6 +292,9 @@
   }
   .comments-section .container {
     max-width: 95%;
+  }
+  footer .wrapper {
+    min-width: 720px;
   }
   footer .wrapper > div {
     width: 50%;

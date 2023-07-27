@@ -15,10 +15,10 @@ $dark-footer: #232323;
 $gray-color: #424242;
 $light-gray: #666666;
 $gradient-1: rgba($primary-color, 0.5);
-$gradient-70: rgba($primary-color, 0.7);
-$border-bottom: #d8b5a269;
 $gradient-2: rgba($primary-dark-color, 0.7);
+$gradient-70: rgba($primary-color, 0.7);
 $gradient-3: rgba($primary-dark-color, 0.7);
+$border-bottom: #d8b5a269;
 $background-2: #fafafa;
 $gray-badge: #b3b3b3;
 $violet: #5d50c6;
@@ -82,7 +82,7 @@ header:not(ul) {
 .wrapper {
 	margin: 0 auto;
 	padding: 0 16px;
-	max-width: 1140px;
+	max-width: 1170px;
 }
 .d-flex {
 	display: flex;
@@ -333,7 +333,7 @@ nav {
 	.primary-light {
 		background-color: $primary-color;
 		p {
-			color: $primary-text-color;
+			color: $primary-light-text-color;
 		}
 	}
 	.primary-dark {
@@ -888,9 +888,9 @@ footer {
 			padding: 0 14px;
 			// Title
 			h2 {
-				font-size: 21px;
+				font-size: 22px;
 				font-weight: 500;
-				margin-bottom: 35px;
+				margin-bottom: 16px;
 			}
 		}
 		// Question
@@ -900,6 +900,9 @@ footer {
 				row-gap: 20px;
 				> div {
 					column-gap: 25px;
+					img {
+						padding-top: 6px;
+					}
 				}
 
 				p {
@@ -1035,7 +1038,7 @@ footer {
 	// Copyright
 	.copyright {
 		text-align: center;
-		padding: 80px 0;
+		padding-bottom: 80px;
 		svg {
 			transform: translateY(24%);
 			width: 20px;

@@ -34,7 +34,7 @@ header:not(ul) {
 .wrapper {
   margin: 0 auto;
   padding: 0 16px;
-  max-width: 1140px;
+  max-width: 1170px;
 }
 
 .d-flex {
@@ -287,7 +287,7 @@ nav input:checked + ul {
   background-color: #0076fd;
 }
 .features-section .primary-light p {
-  color: #ffdfcc;
+  color: #eaeaeb;
 }
 .features-section .primary-dark {
   background-color: #0d1128;
@@ -788,9 +788,9 @@ footer .wrapper > div {
   padding: 0 14px;
 }
 footer .wrapper > div h2 {
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 500;
-  margin-bottom: 35px;
+  margin-bottom: 16px;
 }
 footer .wrapper .question .container {
   flex-direction: column;
@@ -799,6 +799,9 @@ footer .wrapper .question .container {
 footer .wrapper .question .container > div {
   -moz-column-gap: 25px;
        column-gap: 25px;
+}
+footer .wrapper .question .container > div img {
+  padding-top: 6px;
 }
 footer .wrapper .question .container p {
   font-size: 14px;
@@ -925,7 +928,7 @@ footer .wrapper .subscribe-connect .connect > div a:first-child {
 }
 footer .copyright {
   text-align: center;
-  padding: 80px 0;
+  padding-bottom: 80px;
 }
 footer .copyright svg {
   transform: translateY(24%);
